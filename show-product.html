@@ -141,12 +141,12 @@
                           <div class="col-md-1">
                                 <div class="text-right"><a href="#" class="btn btn-danger btn-s">ลบ</a></div>
                           </div>
-                      </div><br>
+                        </div><br>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="product-images">
                                     <div class="product-main-img">
-                                        <img src="img/sweetpotatoes.jpg" alt="">
+                                        <img src="img/sweetpotatoes.jpg" >
                                     </div>
 
                                     <div class="product-gallery">
@@ -170,7 +170,7 @@
                                   <div class="row">
                                           <div class="col-sm-12"><h2>มันม่วงญี่ปุ่น</h2></div>
                                           <div class="col-sm-3 text-right"><img src="img/facebook.png" border=0></div>
-                                          <div class="col-sm-9 "><a href="https://www.facebook.com/JapansweetpotatoGAP/"></a><strong>https://www.facebook.com/JapansweetpotatoGAP/</strong></div>
+                                          <div class="col-sm-9 "><a href="https://www.facebook.com/JapansweetpotatoGAP/"><strong>facebook.com/JapansweetpotatoGAP</strong></a></div>
                                   </div><br>
 
 
@@ -181,19 +181,26 @@
                                           <div class="col-sm-3"><h3><i class="fa fa-map-marker" aria-hidden="true"></i>แผนที่</h3></div>
                                    </div><br>
 
-                                   <div class="row">
-                                   		<h2>Working Star Ratings for Bootstrap 3 <small>Hover and click on a star</small></h2>
-                                   	</div>
-                                       <div class="row lead">
-                                           <div id="stars" class="starrr"></div>
-                                           You gave a rating of <span id="count">0</span> star(s)
-                                   	</div>
+                                   <div class="rating-block">
+                            					<h4>Rating</h4>
+                            					<h2 class="bold padding-bottom-7">4.3 <small>/ 5</small></h2>
+                            					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                            					  <i class="fa fa-star" aria-hidden="true"></i></span>
+                            					</button>
+                            					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                            					  <i class="fa fa-star" aria-hidden="true"></i></span>
+                            					</button>
+                            					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
+                            					  <i class="fa fa-star" aria-hidden="true"></i></span>
+                            					</button>
+                            					<button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                            					  <i class="fa fa-star" aria-hidden="true"></i></span>
+                            					</button>
+                            					<button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
+                            					  <i class="fa fa-star" aria-hidden="true"></i></span>
+                            					</button>
+                            				</div>
 
-                                       <div class="row lead">
-                                           <p>Also you can give a default rating by adding attribute data-rating</p>
-                                           <div id="stars-existing" class="starrr" data-rating='4'></div>
-                                           You gave a rating of <span id="count-existing">4</span> star(s)
-                                       </div>
 
                                    <div class="row">
                                      <div class="form-group">
@@ -204,10 +211,66 @@
                                   </div>
                             </div>
                         </div>
+                          <!-- Comment -->
+                        <div class="col-md-8">
+                              <h2 class="page-header">ความคิดเห็น</h2>
+                                <section class="comment-list">
+                                  <!-- First Comment -->
+                                  <article class="row">
+                                    <div class="col-md-2 col-sm-2 hidden-xs">
+                                      <figure class="thumbnail">
+                                        <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                        <figcaption class="text-center">ราศี มานี</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10">
+                                      <div class="panel panel-default arrow left">
+                                        <div class="panel-body">
+                                          <header class="text-left">
+                                            <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                                            <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> June 16, 2017</time>
+                                          </header>
+                                          <div class="comment-post">
+                                            <p>
+                                              มันน่ากินมากกกกกกกกกก
+                                            </p>
+                                          </div>
+                                          <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i> ตอบกลับ</a></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
+                                  <!-- Second Comment Reply -->
+                                  <article class="row">
+                                    <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-0 hidden-xs">
+                                      <figure class="thumbnail">
+                                        <img class="img-responsive" src="http://www.keita-gaming.com/assets/profile/default-avatar-c5d8ec086224cb6fc4e395f4ba3018c2.jpg" />
+                                        <figcaption class="text-center">สมมา วารี</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9">
+                                      <div class="panel panel-default arrow left">
+                                        <div class="panel-heading right">ตอบกลับ</div>
+                                        <div class="panel-body">
+                                          <header class="text-left">
+                                            <div class="comment-user"><i class="fa fa-user"></i> That Guy</div>
+                                            <time class="comment-date" datetime="16-12-2014 01:05"><i class="fa fa-clock-o"></i> June 16, 2017</time>
+                                          </header>
+                                          <div class="comment-post">
+                                            <p>
+                                            ซื้อเลย ตัวเอง >//<
+                                            </p>
+                                          </div>
+                                          <p class="text-right"><a href="#" class="btn btn-default btn-sm"><i class="fa fa-reply"></i>ตอบกลับ</a></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </article>
 
                     </div>
                 </div>
             </div>
+
     </div>
 
 
