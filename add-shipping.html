@@ -103,117 +103,95 @@
 
 <div class="col-sm-10">
     <br/>
-    <a href="add-shipping.html" class="btn btn-success">เพิ่มรายการส่ง</a>
-    <br/>
-    <br/>
-    <h4>รายการที่กำลังจัดส่ง</h4>
-
-    <table class="table table-bordered"> 
-    <tr bgcolor="#DCDCDC">
-         <th class="text-center" width="200">เลขที่สั่งซื้อ</th>
-        <th class="text-center" width="200">รายการ</th>
-        <th class="text-center" width="200">ผู้ซื้อ</th>
-        <th class="text-center" width="200">ผู้ขาย</th>
-        <th class="text-center" width="200">สถานที่จัดส่ง</th>
-        <th class="text-center" width="150" >วันที่ซื้อสินค้า</th>
-        <th class="text-center" width="150" >สถานะ</th>
-        <th class="text-center" width="200" >หมายเหตุ</th>
-
-    </tr>
-    <tr>
-        <th class="text-center" width="75"><a href="detail-shipping.html">10001</a></th>
-        <th class="text-center" >มะเขือ 2 กิโล</th>
-        <th class="text-center" width="200"><a href="">นางมา</a></th>
-        <th class="text-center" width="200"><a href="">นายบุญมี</a></th>
-        <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="Yellow">กำลังจัดส่ง</font></th>
-        <th class="text-center"><a href="detail-shipping.html">จัดการการส่งสินค้า</a></th>
-    </tr>
-    <tr>
-        <th class="text-center" width="75">2</th>
-        <th class="text-center" >คะน้า 2 กิโล</th>
-        <th class="text-center" width="200">นางมา</th>
-        <th class="text-center" width="200">นายบุญมี</th>
-        <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="Yellow">กำลังจัดส่ง</font></th>
-        <th class="text-center">จัดการการส่งสินค้า</th>
-    </tr>
-    </table>
-
-    <br/>
+    <div class="text-right">
+    <a href="shipping.html" class="btn btn-warning" >บักทึกรายการส่ง</a>
+    </div>
     <br/>
     <h4>รายการที่ยังไม่จัดส่ง</h4>
     <table class="table table-bordered"> 
     <tr bgcolor="#DCDCDC">
+        <th class="text-center" width="150" >เลือกเพื่อจัดส่ง</th>
         <th class="text-center" width="200">เลขที่สั่งซื้อ</th>
         <th class="text-center" width="200">รายการ</th>
         <th class="text-center" width="200">ผู้ซื้อ</th>
         <th class="text-center" width="200">ผู้ขาย</th>
         <th class="text-center" width="200">สถานที่จัดส่ง</th>
-        <th class="text-center" width="150" >วันที่ซื้อสินค้า</th>
-        <th class="text-center" width="150" >สถานะ</th>
-        <th class="text-center" width="200" >หมายเหตุ</th>
+        <th class="text-center" width="100" >หมายเหตุ</th>
 
     </tr>
     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
         <th class="text-center" width="75">1</th>
-        <th class="text-center" >มะเขือเทศ 2 กิโล</th>
+        <th class="text-center" width="300">มะเขือเทศ 2 กิโล</th>
         <th class="text-center" width="200"><a href="">นางมา</a></th>
         <th class="text-center" width="200"><a href="">นายบุญมี</a></th>
         <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="red">ยังไม่จัดส่ง</font></th>
-        <th class="text-center">จัดการการส่งสินค้า</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
     </tr>
     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
         <th class="text-center" width="75">2</th>
-        <th class="text-center" >ผักกาด 2 กิโล</th>
-        <th class="text-center" width="200">นางมา</th>
-        <th class="text-center" width="200">นายบุญมี</th>
-        <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="red">ยังไม่จัดส่ง</font></th>
-        <th class="text-center">จัดการการส่งสินค้า</th>
+        <th class="text-center" width="300">ผักชี 1 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางวิภา</a></th>
+        <th class="text-center" width="200"><a href="">นายสี</a></th>
+        <th class="text-center" width="200">บ้านหนองงูเห่า</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
     </tr>
-    </table>
-
-    
-    <br/>
-    <h4>รายการที่จัดส่งแล้ว</h4>
-    <table class="table table-bordered"> 
-    <tr bgcolor="#DCDCDC">
-        <th class="text-center" width="200">เลขที่สั่งซื้อ</th>
-        <th class="text-center" width="200">รายการ</th>
-        <th class="text-center" width="200">ผู้ซื้อ</th>
-        <th class="text-center" width="200">ผู้ขาย</th>
-        <th class="text-center" width="200">สถานที่จัดส่ง</th>
-        <th class="text-center" width="150" >วันที่ซื้อสินค้า</th>
-        <th class="text-center" width="150" >สถานะ</th>
-        <th class="text-center" width="200" >หมายเหตุ</th>
-
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">3</th>
+        <th class="text-center" width="300">ผักบุ้ง 2 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางคณิต</a></th>
+        <th class="text-center" width="200"><a href="">นายกร</a></th>
+        <th class="text-center" width="200">หมู่บ้านพิมานธานี</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
     </tr>
-    <tr>
-        <th class="text-center" width="75">1</th>
-        <th class="text-center">มะเขือ 2 กิโล</th>
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">4</th>
+        <th class="text-center" width="300">คะน้า 3 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางมา</a></th>
+        <th class="text-center" width="200"><a href="">นายปาก</a></th>
+        <th class="text-center" width="200">บ้านหนองงูเหลือม</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
+    </tr>
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">5</th>
+        <th class="text-center" width="300">ฝัก 5 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางมา</a></th>
+        <th class="text-center" width="200"><a href="">นายณัฐ</a></th>
+        <th class="text-center" width="200">บ้านหนองงูเขียว</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
+    </tr>
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">6</th>
+        <th class="text-center" width="300">มะเขือเทศ 2 กิโล</th>
         <th class="text-center" width="200"><a href="">นางมา</a></th>
         <th class="text-center" width="200"><a href="">นายบุญมี</a></th>
         <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="Green">จัดส่งแล้ว</font></th>
-        <th class="text-center">จัดการการส่งสินค้า</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
     </tr>
-    <tr>
-        <th class="text-center" width="75">2</th>
-        <th class="text-center" >คะน้า 2 กิโล</th>
-        <th class="text-center" width="200">นางมา</th>
-        <th class="text-center" width="200">นายบุญมี</th>
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">7</th>
+        <th class="text-center" width="300">มะเขือเทศ 2 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางมา</a></th>
+        <th class="text-center" width="200"><a href="">นายบุญมี</a></th>
         <th class="text-center" width="200">บ้านไผ่</th>
-        <th>3/7/2560</th>
-        <th class="text-center"><font color="Green">จัดส่งแล้ว</font></th>
-        <th class="text-center">จัดการการส่งสินค้า</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
+    </tr>
+     <tr>
+        <th class="text-center"><input type="checkbox" size="20"></input></th>
+        <th class="text-center" width="75">7</th>
+        <th class="text-center" width="300">มะเขือเทศ 2 กิโล</th>
+        <th class="text-center" width="200"><a href="">นางมา</a></th>
+        <th class="text-center" width="200"><a href="">นายบุญมี</a></th>
+        <th class="text-center" width="200">บ้านไผ่</th>
+        <th class="text-center"><a href="">รายละเอียด</a></th>
     </tr>
     </table>
+
 </div>
 <div class="col-sm-1"></div>
