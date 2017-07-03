@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- star icon-->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,14 +48,12 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
 input[type=text]:focus {
     width: 100%;
 }
 </style>
 
 <body>
-    
     <div class="header-area">
         <div class="container">
             <div class="row">
@@ -110,120 +111,44 @@ input[type=text]:focus {
         </div>
     </div> <!-- End mainmenu area -->
 
-    <div id="slide-list" class="carousel carousel-fade slide" data-ride="carousel">
-
-        <div class="carousel-inner">
-            <div class="single-slide">
-                <div class="slide-bg slide-one"></div>
-                <div class="slide-text-wrapper">
-                    <div class="slide-text">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8">
-                                    <div class="slide-content text-center">
-                                        <h3>ค้นหาสินค้าที่ต้องการ</h3>
-                                        <form>
-                                            <input type="text" name="search" placeholder="Search..">
-                                        </form>
-                                        <br/>
-                                        <a href="" class="readmore">ลงประกาศ</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div> <!-- End slider area -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="la.jpg" alt="Los Angeles">
-        </div>
-
-        <div class="item">
-          <img src="chicago.jpg" alt="Chicago">
-        </div>
-
-        <div class="item">
-          <img src="ny.jpg" alt="New York">
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    <div class="promo-area">
-        <div class="zigzag-bottom"></div>
+    <div class="search-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo">
-                        <i class="fa fa-refresh"></i>
-                        <p>30 Days return</p>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="slide-content text-center">
+                        <h3>ค้นหาสินค้าที่ต้องการ</h3>
+                        <form>
+                            <input type="text" name="search" placeholder="Search..">
+                        </form>
+                        <br/>
+                        <a href="" class="readmore">ลงประกาศ</a>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo">
-                        <i class="fa fa-truck"></i>
-                        <p>Free shipping</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo">
-                        <i class="fa fa-lock"></i>
-                        <p>Secure payments</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo">
-                        <i class="fa fa-gift"></i>
-                        <p>New products</p>
-                    </div>
-                </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
-    </div> <!-- End promo area -->
+    </div><!-- End search area -->
 
-    <div class="maincontent-area">
-        <div class="zigzag-bottom"></div>
+    <div class="promo-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2 class="section-title">Latest Products</h2>
+                        <h2>สินค้าแนะนำ</h2>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
                                 <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
 
-                                <div class="product-carousel-price">
+                                <div class="promo-price">
                                     <ins>$700.00</ins> <del>$800.00</del>
                                 </div>
                             </div>
@@ -231,13 +156,13 @@ input[type=text]:focus {
                                 <div class="product-f-image">
                                     <img src="img/product-2.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
-                                <h2><a href="single-product.html">Apple new mac book 2015 March :P</a></h2>
-                                <div class="product-carousel-price">
+                                <h2><a href="single-product.html">Apple new mac book 2015 March </a></h2>
+                                <div class="promo-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div>
                             </div>
@@ -245,14 +170,14 @@ input[type=text]:focus {
                                 <div class="product-f-image">
                                     <img src="img/product-3.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
                                 <h2><a href="single-product.html">Apple new i phone 6</a></h2>
 
-                                <div class="product-carousel-price">
+                                <div class="promo-price">
                                     <ins>$400.00</ins> <del>$425.00</del>
                                 </div>
                             </div>
@@ -260,14 +185,14 @@ input[type=text]:focus {
                                 <div class="product-f-image">
                                     <img src="img/product-4.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
                                 <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
 
-                                <div class="product-carousel-price">
+                                <div class="promo-price">
                                     <ins>$200.00</ins> <del>$225.00</del>
                                 </div>
                             </div>
@@ -275,14 +200,14 @@ input[type=text]:focus {
                                 <div class="product-f-image">
                                     <img src="img/product-5.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
                                 <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
 
-                                <div class="product-carousel-price">
+                                <div class="promo-price">
                                     <ins>$1200.00</ins> <del>$1355.00</del>
                                 </div>
                             </div>
@@ -290,14 +215,14 @@ input[type=text]:focus {
                                 <div class="product-f-image">
                                     <img src="img/product-6.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
 
                                 <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
 
-                                <div class="product-carousel-price">
+                                <div class="promo-price">
                                     <ins>$400.00</ins>
                                 </div>
                             </div>
@@ -306,190 +231,351 @@ input[type=text]:focus {
                 </div>
             </div>
         </div>
-    </div> <!-- End main content area -->
+    </div> <!-- End promo area -->
 
-    <div class="brands-area">
-        <div class="zigzag-bottom"></div>
+    <div class="promo-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="brand-wrapper">
-                        <h2 class="section-title">Brands</h2>
-                        <div class="brand-list">
-                            <img src="img/services_logo__1.jpg" alt="">
-                            <img src="img/services_logo__2.jpg" alt="">
-                            <img src="img/services_logo__3.jpg" alt="">
-                            <img src="img/services_logo__4.jpg" alt="">
-                            <img src="img/services_logo__1.jpg" alt="">
-                            <img src="img/services_logo__2.jpg" alt="">
-                            <img src="img/services_logo__3.jpg" alt="">
-                            <img src="img/services_logo__4.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- End brands area -->
+                    <div class="latest-product">
+                        <h2>สินค้ามาใหม่</h2>
+                        <div class="product-carousel">
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-1.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
 
-    <div class="product-widget-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-product-widget">
-                        <h2 class="product-wid-title">Top Sellers</h2>
-                        <a href="" class="wid-view-more">View All</a>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                                <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+
+                                <div class="promo-price">
+                                    <ins>$700.00</ins> <del>$800.00</del>
+                                </div>
                             </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-2.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">Apple new mac book 2015 March </a></h2>
+                                <div class="promo-price">
+                                    <ins>$899.00</ins> <del>$999.00</del>
+                                </div>
                             </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new mac book 2015</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-3.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+
+                                <div class="promo-price">
+                                    <ins>$400.00</ins> <del>$425.00</del>
+                                </div>
                             </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-4.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+
+                                <div class="promo-price">
+                                    <ins>$200.00</ins> <del>$225.00</del>
+                                </div>
                             </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-5.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
+
+                                <div class="promo-price">
+                                    <ins>$1200.00</ins> <del>$1355.00</del>
+                                </div>
                             </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-product-widget">
-                        <h2 class="product-wid-title">Recently Viewed</h2>
-                        <a href="#" class="wid-view-more">View All</a>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-product-widget">
-                        <h2 class="product-wid-title">Top New</h2>
-                        <a href="#" class="wid-view-more">View All</a>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
-                            </div>
-                        </div>
-                        <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
-                            <div class="product-wid-rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="product-wid-price">
-                                <ins>$400.00</ins> <del>$425.00</del>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-6.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    </div>
+                                </div>
+
+                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+
+                                <div class="promo-price">
+                                    <ins>$400.00</ins>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- End product widget area -->
+    </div> <!-- End promo area -->
+
+    <div class="shop-area">
+
+        <div class="container">
+            <h2>สินค้า</h2>
+            <div class="col-md-3">
+                <div class="category-list">
+                    <ul class="w3-ul w3-border">
+                        <h3>ประเภทสินค้า</h3>
+                        <li><a href="">ทั้งหมด</a></li>
+                        <li><a href="">ผัก</a></li>
+                        <li><a href="">ผลไม้</a></li>
+                        <li><a href="">OTOP</a></li>
+                        <li><a href="">Premium</a></li>
+                        <li><a href="">อุปกรณ์ทางการเกษตร</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-2.jpg" alt="">
+                            </div>
+
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-1.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-3.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-4.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-2.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-1.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-3.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-4.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-2.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-1.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-3.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="single-shop-product">
+                            <div class="product-upper">
+                                <img src="img/product-4.jpg" alt="">
+                            </div>
+                            <h2>Apple new mac book 2015 March </h2>
+                            <div class="shop-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div>
+
+                            <div class="product-option-shop">
+                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-pagination text-center">
+                            <nav>
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <div class="footer-top-area">
-        <div class="zigzag-bottom"></div>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-about-us">
-                        <h2>e<span>Electronics</span></h2>
+                        <h2>Green<span>House</span></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
                         <div class="footer-social">
                             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -548,7 +634,7 @@ input[type=text]:focus {
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2015 eElectronics. All Rights Reserved. Coded with <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
+                        <p>&copy; 2015 GreenHouse. All Rights Reserved.</a></p>
                     </div>
                 </div>
 
