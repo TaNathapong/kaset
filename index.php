@@ -21,29 +21,17 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <!-- star icon-->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <style>
 input[type=text] {
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 18px;
+    color: black;
     background-color: white;
-    background-image: url('search-icon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
@@ -54,6 +42,7 @@ input[type=text]:focus {
 </style>
 
 <body>
+
     <div class="header-area">
         <div class="container">
             <div class="row">
@@ -70,15 +59,14 @@ input[type=text]:focus {
         </div>
     </div> <!-- End header area -->
 
-    <div class="site-branding-area">
+    <div class="site-branding-area" style="background: #fff;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.html">Green<span>House</span></a></h1>
+                        <h1><a href="index.php">Green<span>House</span></a></h1>
                     </div>
                 </div>
-
                 <div class="col-sm-6">
                     <div class="shopping-item">
                         <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
@@ -101,7 +89,7 @@ input[type=text]:focus {
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">หน้าแรก</a></li>
+                        <li class="active"><a href="index.php">หน้าแรก</a></li>
                         <li><a href="shop.html">ตลาด</a></li>
                         <li><a href="#">ท่องเที่ยว</a></li>
                         <li><a href="#">ติดต่อเรา</a></li>
@@ -114,18 +102,16 @@ input[type=text]:focus {
     <div class="search-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div class="slide-content text-center">
-                        <h3>ค้นหาสินค้าที่ต้องการ</h3>
-                        <form>
-                            <input type="text" name="search" placeholder="Search..">
-                        </form>
-                        <br/>
-                        <a href="" class="readmore">ลงประกาศ</a>
-                    </div>
+                <div class="search-content text-center">
+                    <br/>
+                    <h3>ค้นหาสินค้าที่ต้องการ</h3>
+                    <br/>
+                    <form>
+                        <input type="text" name="search" placeholder="ค้นหา..">
+                    </form>
+                    <br/>
+                    <a href="" class="readmore">ลงประกาศ</a>
                 </div>
-                <div class="col-md-2"></div>
             </div>
         </div>
     </div><!-- End search area -->
@@ -135,7 +121,7 @@ input[type=text]:focus {
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2>สินค้าแนะนำ</h2>
+                        <center><h2>สินค้าแนะนำ</h2></center>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -238,7 +224,7 @@ input[type=text]:focus {
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2>สินค้ามาใหม่</h2>
+                        <center><h2>สินค้ามาใหม่</h2></center>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
@@ -339,11 +325,11 @@ input[type=text]:focus {
     <div class="shop-area">
 
         <div class="container">
-            <h2>สินค้า</h2>
+            <center><h2>สินค้า</h2></center>
             <div class="col-md-3">
                 <div class="category-list">
+                    <center><h3>ประเภทสินค้า</h3></center>
                     <ul class="w3-ul w3-border">
-                        <h3>ประเภทสินค้า</h3>
                         <li><a href="">ทั้งหมด</a></li>
                         <li><a href="">ผัก</a></li>
                         <li><a href="">ผลไม้</a></li>
@@ -358,9 +344,11 @@ input[type=text]:focus {
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <div class="single-shop-product">
-                            <div class="product-upper">
-                                <img src="img/product-2.jpg" alt="">
-                            </div>
+                            <a href="#">
+                                <div class="product-upper">
+                                    <img src="img/product-2.jpg" alt="">
+                                </div>
+                            </a>
 
                             <h2>Apple new mac book 2015 March </h2>
                             <div class="shop-price">
@@ -374,9 +362,11 @@ input[type=text]:focus {
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="single-shop-product">
-                            <div class="product-upper">
-                                <img src="img/product-1.jpg" alt="">
-                            </div>
+                            <a href="#">
+                                <div class="product-upper">
+                                    <img src="img/product-1.jpg" alt="">
+                                </div>
+                            </a>
                             <h2>Apple new mac book 2015 March </h2>
                             <div class="shop-price">
                                 <ins>$899.00</ins> <del>$999.00</del>
@@ -389,9 +379,11 @@ input[type=text]:focus {
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="single-shop-product">
-                            <div class="product-upper">
-                                <img src="img/product-3.jpg" alt="">
-                            </div>
+                            <a href="#">
+                                <div class="product-upper">
+                                    <img src="img/product-3.jpg" alt="">
+                                </div>
+                            </a>
                             <h2>Apple new mac book 2015 March </h2>
                             <div class="shop-price">
                                 <ins>$899.00</ins> <del>$999.00</del>
@@ -404,9 +396,11 @@ input[type=text]:focus {
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="single-shop-product">
-                            <div class="product-upper">
-                                <img src="img/product-4.jpg" alt="">
-                            </div>
+                            <a href="#">
+                                <div class="product-upper">
+                                    <img src="img/product-4.jpg" alt="">
+                                </div>
+                            </a>
                             <h2>Apple new mac book 2015 March </h2>
                             <div class="shop-price">
                                 <ins>$899.00</ins> <del>$999.00</del>
@@ -564,13 +558,11 @@ input[type=text]:focus {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <div class="footer-top-area">
-
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -627,7 +619,8 @@ input[type=text]:focus {
                 </div>
             </div>
         </div>
-    </div> <!-- End footer top area -->
+    </div>
+    <!-- End footer top area -->
 
     <div class="footer-bottom-area">
         <div class="container">
@@ -648,7 +641,8 @@ input[type=text]:focus {
                 </div>
             </div>
         </div>
-    </div> <!-- End footer bottom area -->
+    </div>
+    <!-- End footer bottom area -->
 
     <!-- Latest jQuery form server -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
