@@ -347,7 +347,7 @@ input[type=text]:focus {
                                     </div>
                                 </a>
 
-                                <h2>Apple new mac book 2015 March </h2>
+                                <h2>มะเขือเทศ</h2>
                                 <div class="shop-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div>
@@ -364,7 +364,7 @@ input[type=text]:focus {
                                         <img src="img/product-1.jpg" class="img-thumbnail" alt="">
                                     </div>
                                 </a>
-                                <h2>Apple new mac book 2015 March </h2>
+                                <h2>แครอท</h2>
                                 <div class="shop-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div>
@@ -381,7 +381,7 @@ input[type=text]:focus {
                                         <img src="img/product-3.jpg" class="img-thumbnail" alt="">
                                     </div>
                                 </a>
-                                <h2>Apple new mac book 2015 March </h2>
+                                <h2>มัน</h2>
                                 <div class="shop-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div>
@@ -398,7 +398,7 @@ input[type=text]:focus {
                                         <img src="img/product-4.jpg" class="img-thumbnail" alt="">
                                     </div>
                                 </a>
-                                <h2>Apple new mac book 2015 March </h2>
+                                <h2>ข้าวโพด</h2>
                                 <div class="shop-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div>
