@@ -190,7 +190,7 @@
                 </a>
             </div>
             <div class="col-md-4 text-center">
-                <a href="#">
+                <a href="shipping.html">
                     <img src="img/package.png" class="img-thumbnail" style="height: 200px;">
                     <p>สินค้าที่ต้องส่ง</p>
                 </a>
