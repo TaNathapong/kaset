@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .header-area {
@@ -289,11 +289,11 @@ body {
     background: none repeat scroll 0 0 #000;
     content: "";
     height: 100%;
+    width: 100%;
     left: 0;
     opacity: 0.5;
     position: absolute;
     top: 0;
-    width: 100%;
     z-index: -1;
 }
 
@@ -422,7 +422,7 @@ body {
 }
 
 .promo-price ins {
-    color: #41B937;
+    color: #000;
     font-weight: 700;
     margin-right: 5px;
     text-decoration: none;
@@ -441,6 +441,7 @@ body {
 }
 
 .single-product h2 {
+    color: #222;
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 10px;
@@ -786,7 +787,7 @@ ol.slide-indicators li.active {
 }
 
 .shop-area {
-    background: url(img/vegetable1.jpg);
+    background: url(img/vegetable2.jpg);
     color: black;
     padding: 25px 0 50px;
 }
@@ -1262,9 +1263,12 @@ table.shop_table td.product-remove a:hover {
     text-decoration: none
 }
 
-table.shop_table td.product-name a {
-    color: #222;
-}
+table.shop_table td.product-remove a:hover {color: #ff0000;background-color:green ;text-decoration: none}
+table.shop_table td.product-name a{color: #222;}
+table.shop_table td.product-name a:hover {color: #1ABC9C;text-decoration: none}
+div.quantity input.plus:hover, div.quantity input.minus:hover {background-color: #222}
+div.cart-collaterals ul.products li.product a:hover h3 {color: #1ABC9C}
+div.cart-collaterals ul.products li.product a:hover {text-decoration: none}
 
 table.shop_table td.product-name a:hover {
     color: #41B937;
@@ -1326,7 +1330,7 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #41B937;
+    color: #000;
 }
 
 .search-area {
@@ -1339,8 +1343,22 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 
 .category-list {
     font-size: 18px;
-    /*background: #fff;*/
-    /*opacity: 0.5;*/
     color: black;
     padding: 10px;
+}
+
+input[type=text] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
 }
