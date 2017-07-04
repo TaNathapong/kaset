@@ -1263,9 +1263,18 @@ table.shop_table td.product-remove a:hover {
     text-decoration: none
 }
 
+<<<<<<< HEAD
+table.shop_table td.product-remove a:hover {color: #ff0000;background-color:green ;text-decoration: none}
+table.shop_table td.product-name a{color: #222;}
+table.shop_table td.product-name a:hover {color: #1ABC9C;text-decoration: none}
+div.quantity input.plus:hover, div.quantity input.minus:hover {background-color: #222}
+div.cart-collaterals ul.products li.product a:hover h3 {color: #1ABC9C}
+div.cart-collaterals ul.products li.product a:hover {text-decoration: none}
+=======
 table.shop_table td.product-name a {
     color: #222;
 }
+>>>>>>> d75e180823f3f2801e959aad1083e982c252c361
 
 table.shop_table td.product-name a:hover {
     color: #41B937;
@@ -1338,11 +1347,30 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
     padding: 10px;
 }
 
+<<<<<<< HEAD
+.pagination > li > a, .pagination > li > span {
+  color: #1abc9c;
+}
+.boxFollow{
+            border-left: solid 5px;
+            border-top: solid 3px;
+            border-color:  #1abc9c;
+            border-radius: 7px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+        .textFollow{
+            font-size: 18px;
+            background-color: #1abc9c;
+        }
+=======
 .category-list {
     font-size: 18px;
     color: black;
     padding: 10px;
 }
+<<<<<<< HEAD
 
 input[type=text] {
     width: 70%;
@@ -1359,3 +1387,6 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
+=======
+>>>>>>> d75e180823f3f2801e959aad1083e982c252c361
+>>>>>>> 9504440c1b2033a36266633d6a0ccee002cde2db
