@@ -282,7 +282,7 @@ body {
     position: relative;
     z-index: 9;
     padding: 25px;
-    margin: 100px;
+    margin: 25px;
 }
 
 .search-content:before {
@@ -415,7 +415,7 @@ body {
 }
 
 .shop-price ins {
-    color: #fff;
+    color: black;
     font-weight: 700;
     margin-right: 5px;
     text-decoration: none;
@@ -759,21 +759,17 @@ ol.slide-indicators li.active {
 }
 
 .product-big-title-area {
-<<<<<<< HEAD
-    background: url(img/crossword.png) repeat scroll 0 0 #41B937;
-=======
-    background: url(img/hellofresh.jpg ) repeat scroll 0 0 #1fce60;
+    background: url(img/hellofresh.jpg) repeat scroll 0 0 #1fce60;
     height:600px;
     width:80%;
     text-align: center;
     margin-left:10%;
     margin-right:10%;
->>>>>>> 9df811704ce06a4c5f12f9935abd6975ba48bf37
 }
 
 .product-bit-title h2 {
     font-family: raleway;
-  font-family: 'Sriracha', cursive;
+    font-family: 'Sriracha', cursive;
     font-size: 100px;
     font-weight: 100;
     margin: 0;
@@ -790,8 +786,8 @@ ol.slide-indicators li.active {
 }
 
 .shop-area {
-    background-color: #999999;
-    color: #fff;
+    background: url(img/vegetable1.jpg);
+    color: black;
     padding: 25px 0 50px;
 }
 
@@ -1335,7 +1331,7 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 
 .search-area {
     font-size: 18px;
-    background: url(img/vegetable2.jpg);
+    background: url(img/vegetable1.jpg);
     height: 600px;
     color: #fff;
     padding: 10px;
@@ -1344,6 +1340,6 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 .category-list {
     font-size: 18px;
     background: #fff;
-    color: #41B937;
+    color: black;
     padding: 10px;
 }

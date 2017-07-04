@@ -59,23 +59,6 @@ input[type=text]:focus {
         </div>
     </div> <!-- End header area -->
 
-    <div class="site-branding-area" style="background: #fff;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="logo">
-                        <h1><a href="index.php">Green<span>House</span></a></h1>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- End site branding area -->
-
     <div class="mainmenu-area">
         <div class="container">
             <div class="row">
@@ -101,6 +84,18 @@ input[type=text]:focus {
 
     <div class="search-area">
         <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo">
+                        <h1><a href="index.php">Green<span>House</span></a></h1>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="shopping-item">
+                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="search-content text-center">
                     <br/>
