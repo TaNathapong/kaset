@@ -1,0 +1,108 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.lib-panel {
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.banner-shop-big-title-area{
+    background: url(img/banner-shop.jpg) ;
+    height:150px;
+    width:100%;
+}
+
+.banner-shop-bit-title h2 {
+    font-family: 'Sriracha';
+    font-size: 100px;
+    font-weight: 100;
+    padding: 50px 0;
+    color: #fff;
+}
+.banner-travel-bit-title{
+    background: url(img/banner-travel.jpg) ;
+    width:100%;
+    text-align: center;
+}
+
+.banner-travel-bit-title h2 {
+    font-family: raleway;
+    font-family: 'Sriracha', cursive;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+    padding: 50px 0;
+    color: #fff;
+}
+.banner-auction-bit-title{
+
+    background: url(img/banner-auction.jpg) ;
+    height:149px;
+    width:100%;
+    text-align: center;
+}
+
+.banner-auction-bit-title h2 {
+    font-family: raleway;
+    font-family: 'Sriracha', cursive;
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+    padding: 50px 0;
+    color: #fff;
+}
