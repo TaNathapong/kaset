@@ -110,7 +110,7 @@ body {
 }
 
 .logo h1 a {
-    color: #999;
+    color: #f4f4f4;
 }
 
 .logo h1 a:hover {
@@ -132,7 +132,7 @@ body {
 }
 
 .shopping-item a {
-    color: #666;
+    color: #f4f4f4;
 }
 
 .cart-amunt {
@@ -760,7 +760,7 @@ ol.slide-indicators li.active {
 }
 
 .product-big-title-area {
-    background: url(img/vegetable1.jpg) repeat scroll 0 0 #fff;
+    background: url(img/vegetable3.jpg) repeat scroll 0 0 #fff;
     height:350px;
     /*width:80%;*/
     /*text-align: center;*/
@@ -773,7 +773,7 @@ ol.slide-indicators li.active {
     font-size: 100px;
     font-weight: 100;
     padding: 20px 0;
-    color: #888;
+    color: #f4f4f4;
 }
 
 .single-product-area .zigzag-bottom {
@@ -1333,7 +1333,7 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 
 .search-area {
     font-size: 18px;
-    background: url(img/vegetable1.jpg);
+    background: url(img/vegetable3.jpg);
     height: 600px;
     color: #fff;
 }

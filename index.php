@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>หน้าหลัก</title>
+    <title>หน้าหลัก - GreenHouse</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -29,8 +29,8 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-8">
+                <div class="col-md-4 col-xs-6"></div>
+                <div class="col-md-8 col-xs-6">
                     <div class="user-menu text-right">
                         <ul>
                             <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
@@ -97,7 +97,8 @@
     <div class="promo-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-2"></div>
+                <div class="col-md-12 col-xs-8">
                     <div class="latest-product">
                         <center><h2>สินค้าแนะนำ</h2></center>
                         <div class="product-carousel">
@@ -197,10 +198,13 @@
         </div>
     </div> <!-- End promo area -->
 
+    <hr/>
+
     <div class="promo-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-2"></div>
+                <div class="col-md-12 col-xs-8">
                     <div class="latest-product">
                         <center><h2>สินค้ามาใหม่</h2></center>
                         <div class="product-carousel">
@@ -305,8 +309,10 @@
             <center><h2>สินค้า</h2></center>
             <div class="col-md-3">
                 <div class="category-list">
-                    <center><h3>ประเภทสินค้า</h3></center>
-                    <ul class="w3-ul w3-border">
+                    <div class="col-xs-6">
+                        <center><h3>ประเภทสินค้า</h3></center>
+                    </div>
+                    <ul class="w3-ul w3-border col-xs-6">
                         <li><a href="">ทั้งหมด</a></li>
                         <li><a href="">ผัก</a></li>
                         <li><a href="">ผลไม้</a></li>
@@ -322,7 +328,7 @@
                     <?php for($i=1;$i<=3;$i++)
                     {
                         ?>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
                                 <a href="#">
                                     <div class="product-upper">
@@ -336,11 +342,11 @@
                                 </div>
 
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
                                 <a href="#">
                                     <div class="product-upper">
@@ -353,11 +359,11 @@
                                 </div>
 
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
                                 <a href="#">
                                     <div class="product-upper">
@@ -370,11 +376,11 @@
                                 </div>
 
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
                                 <a href="#">
                                     <div class="product-upper">
@@ -387,7 +393,7 @@
                                 </div>
 
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">ใส่ลงตะกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
                                 </div>
                             </div>
                         </div>
