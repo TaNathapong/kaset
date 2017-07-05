@@ -12,6 +12,7 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kanit' rel="stylesheet" type='text/css'>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -29,18 +30,71 @@
 <body>
 
 <style>
-.navbar-header {
+.eiei-area-shop {
+    background: url(img/banner-shop.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+    width:100%;
+    margin-bottom: 15px;
 
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    height: 100px;
-    margin: 0;
+}
+.eiei-area-travel {
+    background: url(img/banner-travel.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+    width:100%;
+    margin-bottom: 15px;
+}
+.eiei-area-auction {
+    background: url(img/banner-auction.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+    width:100%;
+}
+.eiei-title h2 {
+    font-family: 'Athiti', sans-serif;
+    font-size: 48px;
+    font-weight: 18;
     color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #000000;
 }
-.navbar-header li.active {
-    color: #90ACC4;
+.cat-area-otop {
+    background: url(img/otop.png) repeat scroll 0 0 #fff;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+
 }
+.cat-area-product {
+    background: url(img/jam.jpg) repeat scroll 0 0 #fff;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+}
+.cat-area-food {
+    background: url(img/food.jpg) repeat scroll 0 0 #fff;
+    height:300px;
+    width:300px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .01s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
 .sub-header {
     font-family: 'Athiti', sans-serif;
     font-size: 72px;
@@ -61,6 +115,17 @@
     font-weight: 300;
     height: 100px;
 }
+
+.center {
+    font-family: 'Athiti', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    font-weight: 100;
+    color: #fff;
+}
 </style>
 <!-- navbar -->
 <div class="container-fluid">
@@ -75,55 +140,57 @@
         <li><a href="#"><i class="material-icons">add_shopping_cart</i></a></li>
     </ul><br/><br/><br/><br/><br/><br/><br/>
 </div>
+
 <!-- content-->
 <div class="container">
     <div class="row">
         <div class="col-md-8">
-
             <iframe width="100%" height="450px" src="https://www.youtube.com/embed/7jaC6L18G44" frameborder="0" allowfullscreen></iframe>
-
-        </div><!--.col -->
-        <div class="col-sm-4">
-            <div>
-                <a href="shop.html" class="text-center">
-                    <center>
-                        <img src="img/banner-shop.jpg" style="margin-bottom: 17px; width: 400px; height: 138px;"/>
-                    </center>
-                </a>
+        </div>
+        <div class="col-md-4">
+            <div class="eiei-area-shop">
+                <div class="container">
+                    <a href="shop.html"><div class="eiei-title text-center"><h2>ตลาด</h2></div>
+                    </a>
+                </div>
             </div>
-            <div class="banner-bit-title text-center">
-                <a href="shop.html" class="text-center">
-                    <center>
-                        <img src="img/banner-travel.jpg" style="margin-bottom: 17px; width: 400px; height: 138px;"/>
-                    </center>
-                </a>
+            <div class="eiei-area-travel">
+                <div class="container">
+                    <a href="travel.html"><div class="eiei-title text-center"><h2>ท่องเที่ยว</h2></div>
+                    </a>
+                </div>
             </div>
-            <div>
-                <a href="shop.html" class="text-center">
-                    <center>
-                        <img src="img/banner-auction.jpg" style=" width: 400px; height: 138px;"/>
-                    </center>
-                </a>
+            <div class="eiei-area-auction">
+                <div class="container">
+                    <a href="shop.html"><div class="eiei-title text-center"><h2>ประมูล</h2></div>
+                    </a>
+                </div>
             </div>
         </div>
-
     </div>
+
     <div class="row">
         <div class="sub-header text-center">
             <h2>Green house - ตลาดซื้อขายสินค้าทางเกษตรที่ดีที่สุด</h2>
-        </div><br/><br/><br/>
-    </div>
-    <div class="row">
-        <div class="col-md-4" >
-            <img src="img/otoplogo.gif" class="img-circle text-center"  width="300px" height="300px">
-        </div>
-        <div class="col-md-4">
-            <img src="img/jam.jpg" class="img-circle text-center" width="300px" height="300px">
-        </div>
-        <div class="col-md-4" >
-            <img src="img/food.jpg" class="img-circle text-center"  width="300px" height="300px">
         </div>
     </div>
+
+    <div class="row text-center" style="margin-top: 30px;">
+            <div class="col-md-4">
+                <a href="#"><img src="img/otop.jpg" class="img-circle text-center img-responsive image" width="300px" height="300px">
+                    <div class="eiei-title text-center"><h2>แปรรูป</h2></div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#"><img src="img/jam.jpg" class="img-circle text-center img-responsive image" width="300px" height="300px">
+                    <div class="eiei-title text-center"><h2>แปรรูป</h2></div>
+                </a>
+            </div>
+            <div class="col-md-4" >
+                <a href="#"><img src="img/food.jpg" class="img-circle text-center img-responsive image"  width="300px" height="300px"></a>
+            </div>
+    </div>
+
 </div>
 
 <!-- Latest jQuery form server -->

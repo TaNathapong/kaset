@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>eElectronics - HTML eCommerce Template</title>
+    <title>eElectronics - GreenHouse</title>
     
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -77,11 +77,11 @@
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                                <h2><a href="show-products.html">Sony Smart TV - 2015</a></h2>
                                 
                                 <div class="product-carousel-price">
                                     <ins>$700.00</ins> <del>$800.00</del>
@@ -96,11 +96,11 @@
                                     <img src="img/product-2.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Apple new mac book 2015 March :P</a></h2>
+                                <h2><a href="show-products.html">Apple new mac book 2015 March :P</a></h2>
                                 <div class="product-carousel-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div> 
@@ -113,11 +113,11 @@
                                     <img src="img/product-3.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                                <h2><a href="show-products.html">Apple new i phone 6</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins> <del>$425.00</del>
@@ -131,11 +131,11 @@
                                     <img src="img/product-4.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                                <h2><a href="show-products.html">Sony playstation microsoft</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$200.00</ins> <del>$225.00</del>
@@ -149,11 +149,11 @@
                                     <img src="img/product-5.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
+                                <h2><a href="show-products.html">Sony Smart Air Condtion</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$1200.00</ins> <del>$1355.00</del>
@@ -167,11 +167,11 @@
                                     <img src="img/product-6.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                                <h2><a href="show-products.html">Samsung gallaxy note 4</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins>
@@ -197,11 +197,11 @@
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
                                         
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                                <h2><a href="show-products.html">Sony Smart TV - 2015</a></h2>
                                 
                                 <div class="product-carousel-price">
                                     <ins>$700.00</ins> <del>$800.00</del>
@@ -211,11 +211,11 @@
                                 <div class="product-f-image">
                                     <img src="img/product-2.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเียอด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเียอด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Apple new mac book 2015 March :P</a></h2>
+                                <h2><a href="show-products.html">Apple new mac book 2015 March :P</a></h2>
                                 <div class="product-carousel-price">
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div> 
@@ -225,11 +225,11 @@
                                     <img src="img/product-3.jpg" alt="">
                                     <div class="product-hover">
                                         
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                                <h2><a href="show-products.html">Apple new i phone 6</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins> <del>$425.00</del>
@@ -239,11 +239,11 @@
                                 <div class="product-f-image">
                                     <img src="img/product-4.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                                <h2><a href="show-products.html">Sony playstation microsoft</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$200.00</ins> <del>$225.00</del>
@@ -253,11 +253,11 @@
                                 <div class="product-f-image">
                                     <img src="img/product-5.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
+                                <h2><a href="show-products.html">Sony Smart Air Condtion</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$1200.00</ins> <del>$1355.00</del>
@@ -267,11 +267,11 @@
                                 <div class="product-f-image">
                                     <img src="img/product-6.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                                <h2><a href="show-products.html">Samsung gallaxy note 4</a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins>
@@ -317,8 +317,8 @@
                         <h2 class="product-wid-title">Top Sellers</h2>
                         <a href="" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart TV - 2015</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Sony Smart TV - 2015</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -331,8 +331,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new mac book 2015</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Apple new mac book 2015</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -345,8 +345,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Apple new i phone 6</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -365,8 +365,8 @@
                         <h2 class="product-wid-title">Recently Viewed</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Sony playstation microsoft</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -379,8 +379,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony Smart Air Condtion</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Sony Smart Air Condtion</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -393,8 +393,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-2.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Samsung gallaxy note 4</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -413,8 +413,8 @@
                         <h2 class="product-wid-title">Top New</h2>
                         <a href="#" class="wid-view-more">View All</a>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Apple new i phone 6</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-3.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Apple new i phone 6</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -427,8 +427,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-4.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Samsung gallaxy note 4</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -441,8 +441,8 @@
                             </div>                            
                         </div>
                         <div class="single-wid-product">
-                            <a href="single-product.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
-                            <h2><a href="single-product.html">Sony playstation microsoft</a></h2>
+                            <a href="show-products.html"><img src="img/product-thumb-1.jpg" alt="" class="product-thumb"></a>
+                            <h2><a href="show-products.html">Sony playstation microsoft</a></h2>
                             <div class="product-wid-rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
