@@ -760,22 +760,20 @@ ol.slide-indicators li.active {
 }
 
 .product-big-title-area {
-    background: url(img/hellofresh.jpg) repeat scroll 0 0 #1fce60;
-    height:600px;
-    width:80%;
-    text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    background: url(img/vegetable1.jpg) repeat scroll 0 0 #fff;
+    height:350px;
+    /*width:80%;*/
+    /*text-align: center;*/
+    /*margin-left:10%;
+    margin-right:10%;*/
 }
 
 .product-bit-title h2 {
-    font-family: raleway;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Kanit';
     font-size: 100px;
     font-weight: 100;
-    margin: 0;
-    padding: 50px 0;
-    color: #fff;
+    padding: 20px 0;
+    color: #888;
 }
 
 .single-product-area .zigzag-bottom {
@@ -1338,7 +1336,6 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
     background: url(img/vegetable1.jpg);
     height: 600px;
     color: #fff;
-    padding: 10px;
 }
 
 .category-list {
