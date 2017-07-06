@@ -122,6 +122,25 @@ body {
     color: #38B839;
 }
 
+.logo-main h1 {
+    font-size: 40px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+.logo-main h1 a {
+    color: #94784e;
+}
+
+.logo-main h1 a:hover {
+    text-decoration: none;
+    opacity: .7
+}
+
+.logo-main h1 a span {
+    color: #38B839;
+}
+
 .shopping-item {
     border: 1px solid #ddd;
     float: right;
