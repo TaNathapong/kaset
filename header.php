@@ -137,7 +137,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">หน้าแรก</a></li>
-                    <li><a href="shop.html">ตลาด</a></li>
+                    <li><a href="shop.php">ตลาด</a></li>
                     <li><a href="#">ท่องเที่ยว</a></li>
                     <li><a href="#">ติดต่อเรา</a></li>
                 </ul>
