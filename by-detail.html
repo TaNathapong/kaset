@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
+
     <title>eElectronics - HTML eCommerce Template</title>
 	<style type="text/css">
 		img:hover {
@@ -12,9 +12,9 @@
 			filter: alpha(opacity=98); /* For IE8 and earlier */
 		}	
 	</style>
-=======
+
     <title>eElectronics - GreenHouse</title>
->>>>>>> 766da2d0d42cab3b5b3a0ccf2b72bd78eb13c7fc
+
     
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -120,9 +120,9 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                        <li class="active"><a href="index.html">หน้าแรก</a></li>
-                        <li><a href="seller-profile.html">ข้อมูลผู้ขายสินค้า</a></li>
+                        <li><a href="seller-profile.html">ประวัติผู้ขาย</a></li>
                         <li><a href="order-list.html">รายการสั่งซื้อ</a></li>
-                        <li><a href="by-announce.html">ประกาศซื้อ</a></li>
+                        <li><a href="by-announce.html">ประกาศซื้อสินค้า</a></li>
                     </ul>
                 </div>  
             </div>
@@ -134,7 +134,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>ข้อมูลประกาศซื้อสินค้า</h2>
+                        <h2>หน้าหลังประกาศซื้อ</h2>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
 												<h2 id='listing-title'>ผักชี</h2>
 											</li>
 											<li class='list-group-item'>
-												<a class="btn btn-success" href="#">แก้ไข</a> <a class="btn btn-info" href="#">ลบ</a>
+												<a class="btn btn-success" href="by-announce.html">แก้ไข</a> <a class="btn btn-info" href="#">ลบ</a>
 											</li>
 											<li class='list-group-item'>
 												<b>รายละเอียด:</b>
@@ -199,130 +199,10 @@
                                 </div>
 							</div>
                         </div>
-	
-	<br><br>         
-								
-							<script> <!-- javascript for images slider gallory -->
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
-}
-</script>
-                            </div>
+						</div>
                         </div>
-
-						<!--รายการสินค้า-->						
-						
-                        <div class="related-products-wrapper">
-                            <h2 class="related-products-title">รายการสินค้า</h2>
-                            <div class="related-products-carousel">
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/p1.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>สั่งซื้อสินค้า</a>
-                                            <a href="" class="view-details-link"><i class="fa fa-link"></i>ดูรายละเอียด</a>
-                                        </div>
-                                    </div>
-
-                                    <h2><a href="">ผักชี</a></h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>$9.00</ins> <del>$10.00</del>
-                                    </div> 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/p2.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>สั่งซื้อสินค้า</a>
-                                            <a href="" class="view-details-link"><i class="fa fa-link"></i>ดูรายละเอียด</a>
-                                        </div>
-                                    </div>
-
-                                    <h2><a href="">หน่อไม้ฝรั่ง</a></h2>
-                                    <div class="product-carousel-price">
-                                        <ins>$19.00</ins> <del>$20.00</del>
-                                    </div> 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/p3.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> สั่งซื้อสินค้า</a>
-                                            <a href="" class="view-details-link"><i class="fa fa-link"></i>ดูรายละเอียด</a>
-                                        </div>
-                                    </div>
-
-                                    <h2><a href="">ผักปลัง</a></h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>$10.00</ins> <del>$15.00</del>
-                                    </div>                                 
-                                </div>
-								<div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/p3.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> สั่งซื้อสินค้า</a>
-                                            <a href="" class="view-details-link"><i class="fa fa-link"></i>ดูรายละเอียด</a>
-                                        </div>
-                                    </div>
-
-                                    <h2><a href="">ผักปลัง</a></h2>
-
-                                    <div class="product-carousel-price">
-                                        <ins>$10.00</ins> <del>$15.00</del>
-                                    </div>                                 
-                                </div>
-                                <div class="single-product">
-                                    <div class="product-f-image">
-                                        <img src="img/p4.jpg" alt="">
-                                        <div class="product-hover">
-                                            <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>สั่งซื้อสินค้า</a>
-                                            <a href="" class="view-details-link"><i class="fa fa-link"></i>ดูรายละเอียด</a>
-                                        </div>
-                                    </div>
-
-                                    <h2><a href="">แครอท</a></h2>
-									 <div class="product-carousel-price">
-                                        <ins>$30.00</ins> <del>$35.00</del>
-                                    </div>      
-
-                                </div>                                      
-                            </div>
-                        </div>
-                    </div>                    
-            </div>
-        </div>
-    
-
-
-    
+	<br><br>					
 	<div class="footer-top-area">
-        
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -398,8 +278,7 @@ function showDivs(n) {
             </div>
         </div>
     </div>
-   
-    
+
 	<!-- Latest jQuery form server -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
     
