@@ -12,44 +12,176 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kanit' rel="stylesheet" type='text/css'>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/stylemain.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
-  <style>
-  .navbar-header {
+<style>
+.eiei-area-shop {
+    background: url(img/banner-shop.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+width:400px;
+    margin-bottom: 15px;
 
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+}
+.eiei-area-travel {
+    background: url(img/banner-travel.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+    width:400px;
+    margin-bottom: 15px;
+}
+.eiei-area-auction {
+    background: url(img/banner-auction.jpg) repeat scroll 0 0 #fff;
+    height:138px;
+    width:400px;
+}
+.eiei-title h2 {
+    font-family: 'Athiti', sans-serif;
+    font-size: 48px;
+    font-weight: 18;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+}
+.cat-area-otop {
+    background: url(img/89.jpg);
+    height:300px;
+    width:300px;
+    border-radius: 200%;
+
+}
+.cat-area-product {
+    background: url(img/jam.jpg) ;
+    height:300px;
+    width:300px;
+    border-radius: 200%;
+}
+.cat-area-food {
+    background: url(img/food.jpg) ;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+
+}
+
+.image {
+  opacity: 1;
+  transition: .01s ease;
+}
+
+.container:hover .image {
+  opacity: 0.8;
+}
+
+.sub-header {
+    font-family: 'Athiti', sans-serif;
+    font-size: 72px;
     height: 100px;
     margin: 0;
+    color: #786240;
+    padding: 50px 0;
+}
+.sub-header h2{
+
+    font-size: 42px;
+    font-weight: 100;
+    height: 100px;
+}
+.sub-header h3 {
+
+    font-size: 16px;
+    font-weight: 300;
+    height: 100px;
+}
+.pic-header {
+    font-family: 'Athiti', sans-serif;
+    font-size: 72px;
+    height: 100px;
+    margin: 0;
+    color: #786240;
+    padding: 50px 0;
+}
+.pic-header h2{
+    font-size: 42px;
+    font-weight: 100;
+    height: 100px;
+}
+.center {
+    font-family: 'Athiti', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    font-weight: 100;
     color: #fff;
-  }
-  .navbar-header li.active {
-    color: #90ACC4;
-  }
-  </style>
-  <!-- navbar -->
-    <div class="container-fluid">
-      <div class="navbar-header">
+}
+div.gallery {
+    border: 0 solid #ccc;
+}
+
+div.gallery:hover {
+    border: 0 solid #777;
+}
+
+div.gallery img {
+    width: 400px;
+    height:450px;
+}
+
+
+.responsive {
+
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+<!-- navbar -->
+<div class="container-fluid">
+    <div class="navbar-header">
         <a class="navbar-brand" href="#">
-          <img src="img/logo.jpg" style="height: 200px;"></a>
-      </div><br><br><br><br><br>
-      <ul class="nav navbar-nav navbar-right">
+            <img src="img/logo.jpg" style="height: 200px;">
+        </a>
+    </div><br/><br/><br/><br/><br/>
+    <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><i class="material-icons">search</i></a></li>
         <li><a href="#"><i class="material-icons">person</i></a></li>
         <li><a href="#"><i class="material-icons">add_shopping_cart</i></a></li>
+<<<<<<< HEAD
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="shop.php"><strong>ตลาด</strong></a></li>
@@ -71,89 +203,110 @@
 
      </div>
 	</div>
+=======
+    </ul><br/><br/><br/><br/><br/><br/><br/>
+>>>>>>> 0b5b11e84f351735e3020b38ca899ec984e7f759
 </div>
 
-<div class="footer-top-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-about-us">
-                    <h2>Green<span>House</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
-                    <div class="footer-social">
-                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    </div>
-                </div>
+<!-- content-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <iframe width="100%" height="450px" src="https://www.youtube.com/embed/7jaC6L18G44" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4">
+            <div class="eiei-area-shop ">
+                    <a href="shop.html"><div class="eiei-title text-center"><h2>ตลาด</h2></div>
+                    </a>
             </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-menu">
-                    <h2 class="footer-wid-title">User Navigation </h2>
-                    <ul>
-                        <li><a href="#">My account</a></li>
-                        <li><a href="#">Order history</a></li>
-                        <li><a href="#">Wishlist</a></li>
-                        <li><a href="#">Vendor contact</a></li>
-                        <li><a href="#">Front page</a></li>
-                    </ul>
-                </div>
+            <div class="eiei-area-travel">
+                    <a href="travel.html"><div class="eiei-title text-center"><h2>ท่องเที่ยว</h2></div>
+                    </a>
             </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-menu">
-                    <h2 class="footer-wid-title">Categories</h2>
-                    <ul>
-                        <li><a href="#">Mobile Phone</a></li>
-                        <li><a href="#">Home accesseries</a></li>
-                        <li><a href="#">LED TV</a></li>
-                        <li><a href="#">Computer</a></li>
-                        <li><a href="#">Gadets</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-newsletter">
-                    <h2 class="footer-wid-title">Newsletter</h2>
-                    <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
-                    <div class="newsletter-form">
-                        <form action="#">
-                            <input type="email" placeholder="Type your email">
-                            <input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
+            <div class="eiei-area-auction">
+                    <a href="shop.html"><div class="eiei-title text-center"><h2>ประมูล</h2></div>
+                    </a>
             </div>
         </div>
     </div>
-</div>
-<!-- End footer top area -->
 
-<div class="footer-bottom-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="copyright">
-                    <p>&copy; 2015 GreenHouse. All Rights Reserved.</a></p>
-                </div>
-            </div>
+    <div class="row">
+        <div class="sub-header text-center">
+            <h2>Green house - ตลาดซื้อขายสินค้าทางเกษตรที่ดีที่สุด</h2>
+        </div>
+    </div>
 
+    <div class="row text-center" style="margin-top: 30px;">
             <div class="col-md-4">
-                <div class="footer-card-icon">
-                    <i class="fa fa-cc-discover"></i>
-                    <i class="fa fa-cc-mastercard"></i>
-                    <i class="fa fa-cc-paypal"></i>
-                    <i class="fa fa-cc-visa"></i>
+                <div class="cat-area-otop image">
+                        <a href="shop.html">
+                        </a>
                 </div>
             </div>
-        </div>
+            <div class="col-md-4">
+                <div class="cat-area-product image">
+                        <a href="shop.html"><div class="eiei-title text-center"><h2>แปรรูป</h2></div>
+                        </a>
+                </div>
+            </div>
+            <div class="col-md-4" >
+                <div class="cat-area-food image">
+                        <a href="shop.html"><div class="eiei-title text-center"><h2>อาหาร</h2></div>
+                        </a>
+                </div>
+            </div>
     </div>
 </div>
-<!-- End footer bottom area -->
+<!-- gallery -->
+<div class="row">
+  <div class="pic-header text-center">
+    <h2>สินค้าแนะนำ</h2>
+        <div class="responsive">
+          <div class="gallery">
+            <a href="img/watermelon.jpg"><img src="img/watermelon.jpg">
+            </a>
+          </div>
+        </div>
+
+
+        <div class="responsive">
+          <div class="gallery">
+            <a href="img/Fruit-Salad.jpg"><img src="img/Fruit-Salad.jpg" >
+            </a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a href="img/bell_chili.jpg"><img src="img/bell_chili.jpg" >
+            </a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+              <a href="img/vegan-banana.jpg"><img src="img/vegan-banana.jpg" >
+              </a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+              <a href="img/MANGOSTEEN.jpg"><img src="img/MANGOSTEEN.jpg" >
+              </a>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+              <a href="img/whole-durian-and-opened-durian.jpg"><img src="img/whole-durian-and-opened-durian.jpg" >
+              </a>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+  </div>
+</div><!-- End gallery -->
 
 <!-- Latest jQuery form server -->
 <script src="https://code.jquery.com/jquery.min.js"></script>
