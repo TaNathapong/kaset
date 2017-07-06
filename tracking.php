@@ -28,15 +28,20 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
       <style type="text/css">
             .boxFollow{
                 border-left: solid 5px;
                 border-top: solid 3px;
-                border-color:  #1abc9c;
-                border-radius: 7px;
+                border-right: solid 3px;
+                border-color:  #38b839 ;
+               
                 margin-top: 20px;
                 margin-left: 20px;
-                padding-left: 20px;
+                margin-right: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+
             }
             .textFollow{
                 font-size: 18px;
@@ -46,27 +51,51 @@
                 border-bottom: solid 5px;
 
             }
+            @font-face {
+                font-family: 'bangna-new';
+                src: url('fonts/bangna-new.ttf')  format('truetype');
+            }
+            h2{
+                font-family: 'bangna-new';
+            }
+            .bloxleft{
+                border:solid 5px;
+                border-color: #38b839;
+            }
         </style>
   </head>
   <body>
    
     
-    <?php include'header.php' ?>
+    <?php include'header.php' ?> <!-- header เรียกไฟล์ชื่อ header.php -->
     
+    <!-- start ส่วนหัว -->
     <div class="product-big-title-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2><span class="glyphicon glyphicon-heart" >รายการโปรด<span class="glyphicon glyphicon-heart" ></h2>
+                        <h2 style="font-family:url('fonts/bangna-new.ttf');"><span class="glyphicon glyphicon-heart" >รายการโปรด<span class="glyphicon glyphicon-heart" ></h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="boxFollow">
-    <div class="maincontent-area">
-        <div></div>
+    <!-- end ส่วนหัว -->
+
+
+
+    <div class="row">
+        <div class="col-md-2">
+            <div class="boxleft">
+                
+            </div>
+        </div>
+        <div class="col-sm-10">
+        <!-- start boxFollow -->
+        <div class="boxFollow">
+        
+            <div class="maincontent-area">
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
@@ -182,12 +211,12 @@
                     </div>
                 </div>
             </div>
-    </div> <!-- End main content area -->
+            </div> <!-- End รายการถูกใจ -->
    
     
-    <div class="maincontent-area">
-        <div class=""></div>
-        <div class="container">
+            <div class="maincontent-area">
+            <div class=""></div>
+            <div class="container">
             <div>
                 <div class="col-md-12">
                     <div class="latest-product">
@@ -282,10 +311,15 @@
                     </div>
                 </div>
             </div>
+            </div>
+            </div> <!-- End สถานที่ถูกใจ -->
+        
+        </div> <!-- end boxFollow -->
+        <!-- start boxFollow -->
         </div>
-    </div> <!-- End main content area -->
-     </div> <!-- end boxFollow -->
-    
+    </div>
+
+
     <div class="brands-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
