@@ -29,8 +29,8 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-6"></div>
-                <div class="col-md-8 col-xs-6">
+                <div class="col-md-4 col-xs-4"></div>
+                <div class="col-md-8 col-xs-8">
                     <div class="user-menu text-right">
                         <ul>
                             <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
@@ -56,7 +56,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">หน้าแรก</a></li>
-                        <li><a href="shop.html">ตลาด</a></li>
+                        <li><a href="shop.php">ตลาด</a></li>
                         <li><a href="travel.html">ท่องเที่ยว</a></li>
                         <li><a href="contract.html">ติดต่อเรา</a></li>
                     </ul>
@@ -68,12 +68,13 @@
     <div class="search-area">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <div class="logo">
                         <h1><a href="index.php">Green<span>House</span></a></h1>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-xs-6"></div>
+                <div class="col-md-6 col-xs-6">
                     <div class="shopping-item">
                         <a href="cart.html">Cart - <span class="cart-amunt">฿800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
                     </div>
@@ -309,10 +310,10 @@
             <center><h2>สินค้า</h2></center>
             <div class="col-md-3">
                 <div class="category-list">
-                    <div class="col-xs-6">
+                    <div class="col-md-12 col-xs-6">
                         <center><h3>ประเภทสินค้า</h3></center>
                     </div>
-                    <ul class="w3-ul w3-border col-xs-6">
+                    <ul class="w3-ul w3-border col-md-12 col-xs-6">
                         <li><a href="">ทั้งหมด</a></li>
                         <li><a href="">ผัก</a></li>
                         <li><a href="">ผลไม้</a></li>

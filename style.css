@@ -96,7 +96,7 @@ body {
 }
 
 .mainmenu-area {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     width: 100%;
@@ -119,7 +119,7 @@ body {
 }
 
 .logo h1 a span {
-    color: #41B937;
+    color: #38B839;
 }
 
 .shopping-item {
@@ -136,12 +136,12 @@ body {
 }
 
 .cart-amunt {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
 }
 
 .product-count {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -160,8 +160,8 @@ body {
 }
 
 .shopping-item:hover {
-    background: none repeat scroll 0 0 #41B937;
-    border-color: #41B937;
+    background: none repeat scroll 0 0 #38B839;
+    border-color: #38B839;
 }
 
 .shopping-item:hover a {
@@ -218,7 +218,7 @@ body {
 }
 
 .zigzag-bottom {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     bottom: -80px;
     height: 165px;
     left: -5%;
@@ -298,9 +298,9 @@ body {
 }
 
 .readmore {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     color: #fff;
-    border: 1px solid #41B937;
+    border: 1px solid #38B839;
     display: inline-block;
     font-size: 20px;
     margin-top: 15px;
@@ -317,12 +317,12 @@ body {
 
 .promo-area {
     background: none repeat scroll 0 0 #fff;
-    color: #41B937;
+    color: #38B839;
     padding: 25px 0 50px;
 }
 
 .brands-area {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     color: #fff;
     padding: 25px 0 100px;
 }
@@ -384,7 +384,7 @@ body {
 }
 
 .product-hover a {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     border-radius: 5px;
     color: #fff;
     display: block;
@@ -395,20 +395,20 @@ body {
     position: absolute;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid #41B937;
+    border: 1px solid #38B839;
     width: 80%;
     z-index: 99;
     transition: .4s;
 }
 
 .product-hover a:hover {
-    background: #000;
+    background: #1B571B;
     text-decoration: none;
-    border-color: #444;
+    border-color: #174C18;
 }
 
 .product-carousel-price ins {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
     margin-right: 5px;
     text-decoration: none;
@@ -453,7 +453,7 @@ body {
 }
 
 .single-product p {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
 }
 
@@ -486,8 +486,8 @@ body {
 }
 
 .latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
-    border: 1px solid #41B937;
-    color: #41B937;
+    border: 1px solid #38B839;
+    color: #38B839;
     display: inline-block;
     margin-left: 15px;
     padding: 1px 10px;
@@ -550,7 +550,7 @@ body {
 }
 
 .product-wid-price ins {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
     margin-right: 10px;
     text-decoration: none;
@@ -561,11 +561,11 @@ body {
 }
 
 .single-wid-product h2 a:hover, .single-product h2 a:hover {
-    color: #41B937;
+    color: #38B839;
 }
 
 .wid-view-more {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     color: #fff;
     padding: 3px 15px;
     position: absolute;
@@ -608,7 +608,7 @@ body {
 }
 
 .footer-about-us span {
-    color: #41B937;
+    color: #38B839;
 }
 
 .footer-wid-title {
@@ -640,7 +640,7 @@ body {
 }
 
 .footer-social a {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     color: #fff;
     display: inline-block;
     font-size: 20px;
@@ -650,7 +650,7 @@ body {
     padding-top: 5px;
     text-align: center;
     width: 40px;
-    border: 1px solid #41B937;
+    border: 1px solid #38B839;
 }
 
 .footer-social a:hover {
@@ -671,14 +671,14 @@ body {
 }
 
 .newsletter-form input[type="submit"] {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     border: medium none;
     color: #fff;
     display: inline-block;
     font-size: 18px;
     padding: 7px 20px;
     text-transform: uppercase;
-    border: 1px solid #41B937;
+    border: 1px solid #38B839;
 }
 
 .newsletter-form input[type="submit"]:hover {
@@ -691,7 +691,7 @@ body {
 }
 
 a {
-    color: #41B937
+    color: #38B839
 }
 
 a:hover, a:focus {
@@ -785,7 +785,7 @@ ol.slide-indicators li.active {
 }
 
 .shop-area {
-    background: url(img/vegetable2.jpg);
+    background: url(img/wallpaper1.jpg);
     color: black;
     padding: 25px 0 50px;
 }
@@ -801,8 +801,6 @@ ol.slide-indicators li.active {
     width: 100%;
     z-index: -1;
 }
-
-
 
 .sidebar-title {
     color: #3dc6ab;
@@ -821,7 +819,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea {
 }
 
 input[type="submit"], button[type=submit] {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     border: medium none;
     color: #fff;
     padding: 11px 20px;
@@ -859,7 +857,7 @@ input[type="submit"]:hover, button[type=submit]:hover {
 }
 
 .product-sidebar-price>ins {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
     margin-right: 10px;
     text-decoration: none;
@@ -926,7 +924,7 @@ input[type="submit"]:hover, button[type=submit]:hover {
 }
 
 .product-inner-price>ins {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
     margin-right: 10px;
     text-decoration: none;
@@ -938,7 +936,7 @@ input[type="submit"]:hover, button[type=submit]:hover {
 }
 
 .quantity input[type="number"] {
-    border: 1px solid #41B937;
+    border: 1px solid #38B839;
     padding: 5px;
     width: 50px;
 }
@@ -978,7 +976,7 @@ form.cart {
 }
 
 .product-tab li.active {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
 }
 
 .product-tab li.active a {
@@ -1080,7 +1078,7 @@ td.product-name {
 }
 
 div.quantity input.plus, div.quantity input.minus {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     border: medium none;
     color: #fff;
     height: 25px;
@@ -1114,7 +1112,7 @@ td.actions div.coupon {
 }
 
 .cart-collaterals h2 {
-    color: #41B937;
+    color: #38B839;
     font-size: 25px;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -1152,7 +1150,7 @@ div.cart-collaterals ul.products li.product {
 .onsale {}
 
 div.cart-collaterals ul.products li.product .onsale {
-    background: none repeat scroll 0 0 #41B937;
+    background: none repeat scroll 0 0 #38B839;
     color: #fff;
     padding: 5px 10px;
     position: absolute;
@@ -1175,7 +1173,7 @@ div.cart-collaterals ul.products li.product .price {
 .price>ins {}
 
 div.cart-collaterals ul.products li.product .price ins {
-    color: #41B937;
+    color: #38B839;
     font-weight: 700;
     margin-left: 10px;
     text-decoration: none;
@@ -1210,7 +1208,7 @@ div.cart-collaterals ul.products li.product .price ins {
 }
 
 #customer_details h3 {
-    color: #41B937;
+    color: #38B839;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -1222,7 +1220,7 @@ div.cart-collaterals ul.products li.product .price ins {
 }
 
 #order_review_heading {
-    color: #41B937;
+    color: #38B839;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -1269,7 +1267,7 @@ div.cart-collaterals ul.products li.product a:hover h3 {color: #1ABC9C}
 div.cart-collaterals ul.products li.product a:hover {text-decoration: none}
 
 table.shop_table td.product-name a:hover {
-    color: #41B937;
+    color: #38B839;
     text-decoration: none
 }
 
@@ -1278,7 +1276,7 @@ div.quantity input.plus:hover, div.quantity input.minus:hover {
 }
 
 div.cart-collaterals ul.products li.product a:hover h3 {
-    color: #41B937
+    color: #38B839
 }
 
 div.cart-collaterals ul.products li.product a:hover {
@@ -1334,7 +1332,7 @@ div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
 .search-area {
     font-size: 18px;
     background: url(img/vegetable3.jpg);
-    height: 600px;
+    height: 500px;
     color: #fff;
 }
 
