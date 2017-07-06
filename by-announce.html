@@ -129,168 +129,180 @@
 	<div class="container">
 		<div class="row"> 
 			<div class="col-md-4"> 
-				
+<!--ขวา-->			<div class="right">
+					ขวา
+				</div>
 			</div>
-	<div class="col-md-4">
-		<div class="product-content-right">
-			<div class="woocommerce">
-				<form novalidate="novalidate" class="simple_form new_listing" id="new_listing" enctype="multipart/form-data" action="/listings" accept-charset="UTF-8" method="post">
-					<input name="utf8" type="hidden" value="&#x2713;" />
-					<input type="hidden" name="authenticity_token" value="n3AtFnTf2lMQHn8MPkSKFxg6225w+xj2MyQv06p+/syMyVSi/EqYD+GigpafwDNRJtavFiBmrv3fPRfjdOI2CA==" />
-						<h3>ข้อมูลสินค้า</h3>
-					<div class="form-group string required listing_title">
-						<label class="string required control-label" for="listing_title">
-						<abbr title="required"></abbr> ชื่อสินค้า</label>
-						<input class="string required form-control" placeholder="เช่น ผักชี,หน่อไม้ " type="text" name="listing[title]" id="listing_title" />
-					</div>
-					<div class="form-group select required listing_listing_type_id">
-					<label class="select required control-label" for="listing_listing_type_id">
-					<abbr title="required"></abbr> ชนิดสินค้า</label>
-						<select class="select required form-control" name="listing[listing_type_id]" id="listing_listing_type_id" size="auto">
-						<option value="0">พืชผัก</option>
-						<option value="1">ผลไม้</option>
-						<option value="2">สินค้าแปรรูป</option>
-						<option value="3">เครื่องมือการเกษตร</option>
-						<option value="4">ปุ๋ยและยาบำรุง</option>
-						<option value="5">ท่องเที่ยวเชิงเกษตร</option>
-						<option value="6">อื่นๆ</option>
-						</select>
-					</div>
-					<div class="form-group file optional listing_photo">
-						<label class="file optional control-label" for="listing_photo">รูปประกอบ (ไม่จำเป็น)</label>
-						<input class="file optional" type="file" name="listing[photo]" id="listing_photo" />
-					</div>
-					<div class="form-group text required listing_description">
-						<label class="text required control-label" for="listing_description">
-						<abbr title="required"></abbr> รายละเอียดสินค้า + การส่งของ + วันรับ/ส่งของ</label>
-						<textarea class="text required form-control" name="listing[description]" id="listing_description"></textarea>
-					</div>
-						<h2>การซื้อ</h2>	
-					<div class="form-group string required listing_unit">
-						<label class="string required control-label" for="listing_unit">
-						<abbr title="required"></abbr> หน่วย</label>
-						<input class="string required form-control" placeholder="เช่น ขีด, ตัน, กก." type="text" name="listing[unit]" id="listing_unit" />
-					</div>
+<!--กึ่งกลาง-->		<div class="col-md-4">
+				<div class="product-content-right">
+					<div class="woocommerce">
+						<form novalidate="novalidate" class="simple_form new_listing" id="new_listing" enctype="multipart/form-data" action="/listings" accept-charset="UTF-8" method="post">
+							<input name="utf8" type="hidden" value="&#x2713;" />
+							<input type="hidden" name="authenticity_token" value="n3AtFnTf2lMQHn8MPkSKFxg6225w+xj2MyQv06p+/syMyVSi/EqYD+GigpafwDNRJtavFiBmrv3fPRfjdOI2CA==" />
+								<h3>ข้อมูลสินค้า</h3>
+							<div class="form-group string required listing_title">
+								<label class="string required control-label" for="listing_title">
+								<abbr title="required"></abbr> ชื่อสินค้า</label>
+								<input class="string required form-control" placeholder="เช่น ผักชี,หน่อไม้ " type="text" name="listing[title]" id="listing_title" />
+							</div>
+							<div class="form-group select required listing_listing_type_id">
+							<label class="select required control-label" for="listing_listing_type_id">
+							<abbr title="required"></abbr> ชนิดสินค้า</label>
+								<select class="select required form-control" name="listing[listing_type_id]" id="listing_listing_type_id" size="auto">
+								<option value="0">พืชผัก</option>
+								<option value="1">ผลไม้</option>
+								<option value="2">สินค้าแปรรูป</option>
+								<option value="3">เครื่องมือการเกษตร</option>
+								<option value="4">ปุ๋ยและยาบำรุง</option>
+								<option value="5">ท่องเที่ยวเชิงเกษตร</option>
+								<option value="6">อื่นๆ</option>
+								</select>
+							</div>
+							<div class="form-group file optional listing_photo">
+								<label class="file optional control-label" for="listing_photo">รูปประกอบ (ไม่จำเป็น)</label>
+								<input class="file optional" type="file" name="listing[photo]" id="listing_photo" />
+							</div>
+							<div class="form-group text required listing_description">
+								<label class="text required control-label" for="listing_description">
+								<abbr title="required"></abbr> รายละเอียดสินค้า + การส่งของ + วันรับ/ส่งของ</label>
+								<textarea class="text required form-control" name="listing[description]" id="listing_description"></textarea>
+							</div>
+								<h2>การซื้อ</h2>	
+							<div class="form-group string required listing_unit">
+								<label class="string required control-label" for="listing_unit">
+								<abbr title="required"></abbr> หน่วย</label>
+								<input class="string required form-control" placeholder="เช่น ขีด, ตัน, กก." type="text" name="listing[unit]" id="listing_unit" />
+							</div>
 
-					<div class="form-group decimal required listing_price_per_unit">
-						<label class="decimal required control-label" for="listing_price_per_unit" size="100%">
-						<abbr title="required"></abbr> ราคาต่อหน่วย</label>
-						<input class="numeric decimal required form-control" placeholder="เช่น 10.5, 95.0" type="number" step="any" name="listing[price_per_unit]" id="listing_price_per_unit" />
-					</div>
+							<div class="form-group decimal required listing_price_per_unit">
+								<label class="decimal required control-label" for="listing_price_per_unit" size="100%">
+								<abbr title="required"></abbr> ราคาต่อหน่วย</label>
+								<input class="numeric decimal required form-control" placeholder="เช่น 10.5, 95.0" type="number" step="any" name="listing[price_per_unit]" id="listing_price_per_unit" />
+							</div>
+						
+							<h2>ตำแหน่ง</h2>
+							<div class="form-group text required listing_pickup_address">
+								<label class="text required control-label" for="listing_pickup_address">
+								<abbr title="required"></abbr> ที่อยู่สินค้า</label>
+								<textarea class="text required form-control" name="listing[pickup_address]" id="listing_pickup_address"></textarea>
+							</div>
 				
-					<h2>ตำแหน่ง</h2>
-					<div class="form-group text required listing_pickup_address">
-						<label class="text required control-label" for="listing_pickup_address">
-						<abbr title="required"></abbr> ที่อยู่สินค้า</label>
-						<textarea class="text required form-control" name="listing[pickup_address]" id="listing_pickup_address"></textarea>
-					</div>
-		
-					<div class="form-group select required listing_province_id">
-						<label class="select required control-label" for="listing_province_id">
-						<abbr title="required"></abbr> จังหวัด</label>
-						<select class="select required form-control" name="listing[province_id]" id="listing_province_id" size="auto">
-						<option value=""></option>
-						<option value="1">กรุงเทพมหานคร</option>
-						<option value="2">สมุทรปราการ</option>
-						<option value="3">นนทบุรี</option>
-						<option value="4">ปทุมธานี</option>
-						<option value="5">พระนครศรีอยุธยา</option>
-						<option value="6">อ่างทอง</option>
-						<option value="7">ลพบุรี</option>
-						<option value="8">สิงห์บุรี</option>
-						<option value="9">ชัยนาท</option>
-						<option value="10">สระบุรี</option>
-						<option value="11">ชลบุรี</option>
-						<option value="12">ระยอง</option>
-						<option value="13">จันทบุรี</option>
-						<option value="14">ตราด</option>
-						<option value="15">ฉะเชิงเทรา</option>
-						<option value="16">ปราจีนบุรี</option>
-						<option value="17">นครนายก</option>
-						<option value="18">สระแก้ว</option>
-						<option value="19">นครราชสีมา</option>
-						<option value="20">บุรีรัมย์</option>
-						<option value="21">สุรินทร์</option>
-						<option value="22">ศรีสะเกษ</option>
-						<option value="23">อุบลราชธานี</option>
-						<option value="24">ยโสธร</option>
-						<option value="25">ชัยภูมิ</option>
-						<option value="26">อำนาจเจริญ</option>
-						<option value="27">หนองบัวลำภู</option>
-						<option value="28">ขอนแก่น</option>
-						<option value="29">อุดรธานี</option>
-						<option value="30">เลย</option>
-						<option value="31">หนองคาย</option>
-						<option value="32">มหาสารคาม</option>
-						<option value="33">ร้อยเอ็ด</option>
-						<option value="34">กาฬสินธุ์</option>
-						<option value="35">สกลนคร</option>
-						<option value="36">นครพนม</option>
-						<option value="37">มุกดาหาร</option>
-						<option value="38">เชียงใหม่</option>
-						<option value="39">ลำพูน</option>
-						<option value="40">ลำปาง</option>
-						<option value="41">อุตรดิตถ์</option>
-						<option value="42">แพร่</option>
-						<option value="43">น่าน</option>
-						<option value="44">พะเยา</option>
-						<option value="45">เชียงราย</option>
-						<option value="46">แม่ฮ่องสอน</option>
-						<option value="47">นครสวรรค์</option>
-						<option value="48">อุทัยธานี</option>
-						<option value="49">กำแพงเพชร</option>
-						<option value="50">ตาก</option>
-						<option value="51">สุโขทัย</option>
-						<option value="52">พิษณุโลก</option>
-						<option value="53">พิจิตร</option>
-						<option value="54">เพชรบูรณ์</option>
-						<option value="55">ราชบุรี</option>
-						<option value="56">กาญจนบุรี</option>
-						<option value="57">สุพรรณบุรี</option>
-						<option value="58">นครปฐม</option>
-						<option value="59">สมุทรสาคร</option>
-						<option value="60">สมุทรสงคราม</option>
-						<option value="61">เพชรบุรี</option>
-						<option value="62">ประจวบคีรีขันธ์</option>
-						<option value="63">นครศรีธรรมราช</option>
-						<option value="64">กระบี่</option>
-						<option value="65">พังงา</option>
-						<option value="66">ภูเก็ต</option>
-						<option value="67">สุราษฎร์ธานี</option>
-						<option value="68">ระนอง</option>
-						<option value="69">ชุมพร</option>
-						<option value="70">สงขลา</option>
-						<option value="71">สตูล</option>
-						<option value="72">ตรัง</option>
-						<option value="73">พัทลุง</option>
-						<option value="74">ปัตตานี</option>
-						<option value="75">ยะลา</option>
-						<option value="76">นราธิวาส</option>
-						<option value="77">บึงกาฬ</option>
-						</select>
-					</div>
+							<div class="form-group select required listing_province_id">
+								<label class="select required control-label" for="listing_province_id">
+								<abbr title="required"></abbr> จังหวัด</label>
+								<select class="select required form-control" name="listing[province_id]" id="listing_province_id" size="auto">
+								<option value=""></option>
+								<option value="1">กรุงเทพมหานคร</option>
+								<option value="2">สมุทรปราการ</option>
+								<option value="3">นนทบุรี</option>
+								<option value="4">ปทุมธานี</option>
+								<option value="5">พระนครศรีอยุธยา</option>
+								<option value="6">อ่างทอง</option>
+								<option value="7">ลพบุรี</option>
+								<option value="8">สิงห์บุรี</option>
+								<option value="9">ชัยนาท</option>
+								<option value="10">สระบุรี</option>
+								<option value="11">ชลบุรี</option>
+								<option value="12">ระยอง</option>
+								<option value="13">จันทบุรี</option>
+								<option value="14">ตราด</option>
+								<option value="15">ฉะเชิงเทรา</option>
+								<option value="16">ปราจีนบุรี</option>
+								<option value="17">นครนายก</option>
+								<option value="18">สระแก้ว</option>
+								<option value="19">นครราชสีมา</option>
+								<option value="20">บุรีรัมย์</option>
+								<option value="21">สุรินทร์</option>
+								<option value="22">ศรีสะเกษ</option>
+								<option value="23">อุบลราชธานี</option>
+								<option value="24">ยโสธร</option>
+								<option value="25">ชัยภูมิ</option>
+								<option value="26">อำนาจเจริญ</option>
+								<option value="27">หนองบัวลำภู</option>
+								<option value="28">ขอนแก่น</option>
+								<option value="29">อุดรธานี</option>
+								<option value="30">เลย</option>
+								<option value="31">หนองคาย</option>
+								<option value="32">มหาสารคาม</option>
+								<option value="33">ร้อยเอ็ด</option>
+								<option value="34">กาฬสินธุ์</option>
+								<option value="35">สกลนคร</option>
+								<option value="36">นครพนม</option>
+								<option value="37">มุกดาหาร</option>
+								<option value="38">เชียงใหม่</option>
+								<option value="39">ลำพูน</option>
+								<option value="40">ลำปาง</option>
+								<option value="41">อุตรดิตถ์</option>
+								<option value="42">แพร่</option>
+								<option value="43">น่าน</option>
+								<option value="44">พะเยา</option>
+								<option value="45">เชียงราย</option>
+								<option value="46">แม่ฮ่องสอน</option>
+								<option value="47">นครสวรรค์</option>
+								<option value="48">อุทัยธานี</option>
+								<option value="49">กำแพงเพชร</option>
+								<option value="50">ตาก</option>
+								<option value="51">สุโขทัย</option>
+								<option value="52">พิษณุโลก</option>
+								<option value="53">พิจิตร</option>
+								<option value="54">เพชรบูรณ์</option>
+								<option value="55">ราชบุรี</option>
+								<option value="56">กาญจนบุรี</option>
+								<option value="57">สุพรรณบุรี</option>
+								<option value="58">นครปฐม</option>
+								<option value="59">สมุทรสาคร</option>
+								<option value="60">สมุทรสงคราม</option>
+								<option value="61">เพชรบุรี</option>
+								<option value="62">ประจวบคีรีขันธ์</option>
+								<option value="63">นครศรีธรรมราช</option>
+								<option value="64">กระบี่</option>
+								<option value="65">พังงา</option>
+								<option value="66">ภูเก็ต</option>
+								<option value="67">สุราษฎร์ธานี</option>
+								<option value="68">ระนอง</option>
+								<option value="69">ชุมพร</option>
+								<option value="70">สงขลา</option>
+								<option value="71">สตูล</option>
+								<option value="72">ตรัง</option>
+								<option value="73">พัทลุง</option>
+								<option value="74">ปัตตานี</option>
+								<option value="75">ยะลา</option>
+								<option value="76">นราธิวาส</option>
+								<option value="77">บึงกาฬ</option>
+								</select>
+							</div>
 
-					<div class="form-group string required listing_title">
-						<label class="string required control-label" for="listing_title">
-						<abbr title="required"></abbr> อำเภอ</label>
-						<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
-					</div>
-	
-					<div class="form-group select required listing_district_id">
-						<div class="form-group string required listing_title">
-						<label class="string required control-label" for="listing_title">
-						<abbr title="required"></abbr>ตำบล</label>
-						<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
-					</div>
-					</div>
-				</form>
-<!--มาตรฐานที่ได้รับ-->									
+							<div class="form-group string required listing_title">
+								<label class="string required control-label" for="listing_title">
+								<abbr title="required"></abbr> อำเภอ</label>
+								<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
+							</div>
+			
+							<div class="form-group select required listing_district_id">
+								<div class="form-group string required listing_title">
+								<label class="string required control-label" for="listing_title">
+								<abbr title="required"></abbr>ตำบล</label>
+								<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
+							</div>
+							</div>
+						</form>								
 					</div>
 				</div>
-			</div>                       
-		</div>			
-	</div>   
+			</div> 
+<!--ซ้าย-->		<div class="col-md-4"> 
+				<div class="right">
+					ซ้าย
+			<!-- Banner right -->
+	<div class="banner-right"><a href="#" title="ร้านค้าออนไลน์"><img src="img/icon-1.png" width="60%" height="auto" alt="ร้านค้าออนไลน์" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>
+	<div class="banner-right"><a href="#" title="อบรม-สัมมนาการค้าออนไลน์"><img src="//www.tarad.com/asset/tarad2013/images/banner_seminar.gif" width="220" height="84" alt="อบรม-สัมมนาการค้าออนไลน์" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>
+	<div class="banner-right"><a href="#" title="แจ้งปัญหา แนะนำติชม"><img src="//www.tarad.com/asset/tarad2013/images/banner_support.gif" width="220" height="84" alt="แจ้งปัญหาแนะนำติชม" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>
+	<div class="banner-right"><a href="#" title="เช็คสถานะการสั่งซื้อ"><img src="//www.tarad.com/asset/tarad2013/images/banner_order_status.gif" width="220" height="84" alt="เช็คสถานะการสั่งซื้อm" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>	
+				</div>
+			</div>
+		</div>		
+	</div>			
 </div>
+	
 
 		<div class="related-products-wrapper container">
 			<h2 class="related-products-title">มาตรฐานที่ได้รับ</h2>
@@ -299,26 +311,22 @@
 					<label class="oh-checkbox"><input type="checkbox" value="1">GAP</label><br>
 					<label><input type="checkbox" value="1">GMP</label><br>
 					<label><input type="checkbox" value="1">IFOAM</label><br>
-					<label><input type="checkbox" value="1">BRC</label><br>
-					
+					<label><input type="checkbox" value="1">อื่นๆ</label><br>
 				</div>
 				<div class="col-md-3">
 					<label><input type="checkbox" value="1">Halal</label><br>
 					<label><input type="checkbox" value="1">Organic Thailand</label><br>
 					<label><input type="checkbox" value="1">Qt</label><br>
-					<label><input type="checkbox" value="1">อย.</label><br>
-					
 				</div>
 				<div class="col-md-3">
 					<label><input type="checkbox" value="1">ISO 22000</label><br>
 					<label><input type="checkbox" value="1">ISO 22000: 2005</label><br>
 					<label><input type="checkbox" value="1">PSG Organic</label><br>
 				</div>
-				
 				<div class="col-md-3">
 					<label><input type="checkbox" value="1">Q Premium</label><br>	
 					<label><input type="checkbox" value="1">HACCP</label><br>
-					<label><input type="checkbox" value="1">อื่นๆ</label><br>
+					<label><input type="checkbox" value="1">อย.</label><br>
 				</div>	
 			</div>
 		</div>
