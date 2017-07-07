@@ -39,20 +39,18 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.php">Green<span>House</span></a></h1>
+                        
                     </div>
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
+                    
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12" >
                     <div class="product-bit-title text-center">
-                        <h2>ตลาด</h2>
+                        <h2>เมนูอาหาร</h2>
                     </div>
                 </div>
             </div>
@@ -64,7 +62,6 @@
 <?php $namefood = array("ผัดผักบุ้ง","ต้มจืด","ต้มยำกุ้ง"); $i=0; $j=0;?>
     <div class="container" > 
         <h2 id="demo01">วันนี้คุณทำอาหารหรือยัง ?</h2>
-        <?php while($j<5){ ?>
             <div class="row">
                 <?php while($i<3){ ?>
                 <div class="col-md-4">
@@ -76,11 +73,157 @@
                 </div>
             <?php $i++; }?>
             </div>
-        <?php $j++; } ?>
+            <?php $i=0; ?>
+            <div class="row">
+                <?php while($i<3){ ?>
+                <div class="col-md-4">
+                    <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วิธีการปรุง</a>
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วัตถุดิบที่ใช้</a>
+                    </div>
+                </div>
+            <?php $i++; }?>
+            </div>
+            <?php $i=0; ?>
+            <div class="row">
+                <?php while($i<3){ ?>
+                <div class="col-md-4">
+                    <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วิธีการปรุง</a>
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วัตถุดิบที่ใช้</a>
+                    </div>
+                </div>
+            <?php $i++; }?>
+            </div>
         
     </div>
 <!-- end food list -->
 
+<!-- product introduce -->
+
+<div class="maincontent-area container">
+            <hr style="border-color: black;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="latest-product">
+                        <br><div class="textFollow">สินค้าที่คุณอาจสนใจ</div>
+                        <div class="product-carousel">
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-1.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Sony Smart TV - 2015</a></h2>
+                                
+                                <div class="product-carousel-price">
+                                    <ins>$700.00</ins> <del>$800.00</del>
+                                </div>
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>
+
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-2.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Apple new mac book 2015 March :P</a></h2>
+                                <div class="product-carousel-price">
+                                    <ins>$899.00</ins> <del>$999.00</del>
+                                </div> 
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-3.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Apple new i phone 6</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>$400.00</ins> <del>$425.00</del>
+                                </div>  
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>                               
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-4.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Sony playstation microsoft</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>$200.00</ins> <del>$225.00</del>
+                                </div>    
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>                        
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-5.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Sony Smart Air Condtion</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>$1200.00</ins> <del>$1355.00</del>
+                                </div>   
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>                              
+                            </div>
+                            <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="img/product-6.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> หยิบใส่ตะกร้า</a>
+                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> รายละเอียด</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="show-products.html">Samsung gallaxy note 4</a></h2>
+
+                                <div class="product-carousel-price">
+                                    <ins>$400.00</ins>
+                                </div> 
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> <!-- End รายการถูกใจ -->
+<!-- end product introduce -->
 
 
 
