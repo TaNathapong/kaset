@@ -33,8 +33,8 @@
                 <div class="col-md-8 col-xs-8">
                     <div class="user-menu text-right">
                         <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
+                            <li><a href="seller-profile.html"><i class="fa fa-user"></i>บัญชีของฉัน</a></li>
+                            <li><a href="login.html"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                         <input type="text" name="search" placeholder="ค้นหา..">
                     </form>
                     <br/>
-                    <a href="" class="readmore">ลงประกาศ</a>
+                    <a href="selling-announcement.html" class="readmore">ลงประกาศ</a>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-2.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-3.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-4.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-5.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-6.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -213,7 +213,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-2.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-3.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-4.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -272,7 +272,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-5.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -287,7 +287,7 @@
                                 <div class="product-f-image">
                                     <img src="img/product-6.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
+                                        <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                     </div>
                                 </div>
@@ -317,7 +317,8 @@
                         <li><a href="">ทั้งหมด</a></li>
                         <li><a href="">ผัก</a></li>
                         <li><a href="">ผลไม้</a></li>
-                        <li><a href="">OTOP</a></li>
+                        <li><a href="otop.html">OTOP</a></li>
+                        <li><a href="processed.html">แปรรูป</a></li>
                         <li><a href="">Premium</a></li>
                         <li><a href="">อุปกรณ์ทางการเกษตร</a></li>
                     </ul>
@@ -331,7 +332,7 @@
                         ?>
                         <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
-                                <a href="#">
+                                <a href="show-products.html">
                                     <div class="product-upper">
                                         <img src="img/product-2.jpg" class="img-thumbnail" alt="">
                                     </div>
@@ -349,7 +350,7 @@
                         </div>
                         <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
-                                <a href="#">
+                                <a href="show-products.html">
                                     <div class="product-upper">
                                         <img src="img/product-1.jpg" class="img-thumbnail" alt="">
                                     </div>
@@ -366,7 +367,7 @@
                         </div>
                         <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
-                                <a href="#">
+                                <a href="show-products.html">
                                     <div class="product-upper">
                                         <img src="img/product-3.jpg" class="img-thumbnail" alt="">
                                     </div>
@@ -383,7 +384,7 @@
                         </div>
                         <div class="col-md-3 col-xs-6">
                             <div class="single-shop-product">
-                                <a href="#">
+                                <a href="show-products.html">
                                     <div class="product-upper">
                                         <img src="img/product-4.jpg" class="img-thumbnail" alt="">
                                     </div>

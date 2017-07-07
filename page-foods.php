@@ -67,8 +67,8 @@
                 <div class="col-md-4">
                     <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วิธีการปรุง</a>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วัตถุดิบที่ใช้</a>
+                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
                     </div>
                 </div>
             <?php $i++; }?>
@@ -79,8 +79,8 @@
                 <div class="col-md-4">
                     <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วิธีการปรุง</a>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วัตถุดิบที่ใช้</a>
+                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
                     </div>
                 </div>
             <?php $i++; }?>
@@ -91,8 +91,8 @@
                 <div class="col-md-4">
                     <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วิธีการปรุง</a>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">วัตถุดิบที่ใช้</a>
+                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
                     </div>
                 </div>
             <?php $i++; }?>
