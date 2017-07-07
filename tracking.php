@@ -31,13 +31,10 @@
 
       <style type="text/css">
             .boxFollow{
-                border-left: solid 5px;
-                border-top: solid 3px;
-                border-right: solid 3px;
-                border-color:  #38b839 ;
-               
+                
+                
                 margin-top: 20px;
-                margin-left: 20px;
+                
                 margin-right: 10px;
                 padding-left: 10px;
                 padding-right: 10px;
@@ -58,10 +55,6 @@
             h2{
                 font-family: 'bangna-new';
             }
-            .bloxleft{
-                border:solid 5px;
-                border-color: #38b839;
-            }
         </style>
   </head>
   <body>
@@ -75,7 +68,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2 style="font-family:url('fonts/bangna-new.ttf');"><span class="glyphicon glyphicon-heart" >รายการโปรด<span class="glyphicon glyphicon-heart" ></h2>
+                        <h2 style="font-family:url('fonts/bangna-new.ttf');">รายการโปรด</h2>
                     </div>
                 </div>
             </div>
@@ -84,11 +77,44 @@
     <!-- end ส่วนหัว -->
 
 
+    <style type="text/css">
+        .boxleft a{
+            display: block;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 10px;
+            text-decoration-line: none;
+            color: #38b839;
+            border:solid 2px;
+            border-radius: 5px;
+            border-color: #efefef;
+            background-color: #efefef;
 
+        }
+        .boxleft a:hover{
+            background-color: #38b839;
+            border:solid 2px;
+            border-radius: 5px;
+            color: white;
+        }
+        .boxleft a span{
+            color: gray;
+        }
+        .textFollow{
+            color: #38b839;
+            font-size: 30px;
+        }
+    </style>
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2" >
             <div class="boxleft">
-                
+                <a href="profile_sell.html"><span class="glyphicon glyphicon-user"></span> คุณ ภาณุวัฒน์</a>
+                <a href=""><span class="glyphicon glyphicon-map-marker"></span> ที่อยู่ของคุณ</a>
+                <a href="order-list.html"><span class="glyphicon glyphicon-shopping-cart"></span> รายการสั่งซื้อ</a>
+                <a href="tracking.php"><span class="glyphicon glyphicon-heart"></span> รายการชื่นชอบ</a>
+                <a href="after-order.php"><span class="glyphicon glyphicon-list-alt"></span> ประวัติการสั่งซื้อ</a>
+                <a href=""><span class="glyphicon glyphicon-cog"></span> การตั้งค่า</a>
+
             </div>
         </div>
         <div class="col-sm-10">
@@ -98,15 +124,28 @@
             <div class="maincontent-area">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="latest-product">
-                        <br><div class="textFollow">รายการสินค้าที่ฉันชอบ</div>
-                        <button type="button" class="btn btn-primary">แก้ใขรายการ</button>
+                    <div class="latest-product"><hr>
+                        <br><div class="textFollow row">
+                                <div class="col-sm-6">
+                                    รายการสินค้าที่ฉันชอบ
+                                </div>
+                                 <div class="col-sm-6">
+                                    <form>
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                                      <input type="text" class="form-control" name="search" placeholder="ค้นหาอะไรก็เจอ">
+                                    </div>
+                                </form>
+                                </div>
+                                
+                            </div><hr>
+                        
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
+                                        <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i>หยิบใส่ตะกร้า</a>
                                         <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i>รายละเอียด</a>
                                     </div>
                                 </div>
@@ -117,7 +156,9 @@
                                     <ins>$700.00</ins> <del>$800.00</del>
                                 </div>
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70"><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
+
                                 </div>
 
                             </div>
@@ -135,7 +176,8 @@
                                     <ins>$899.00</ins> <del>$999.00</del>
                                 </div> 
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href=""><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
                                 </div>
                             </div>
                             <div class="single-product">
@@ -153,7 +195,8 @@
                                     <ins>$400.00</ins> <del>$425.00</del>
                                 </div>  
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href=""><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
                                 </div>                               
                             </div>
                             <div class="single-product">
@@ -171,7 +214,8 @@
                                     <ins>$200.00</ins> <del>$225.00</del>
                                 </div>    
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href=""><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
                                 </div>                        
                             </div>
                             <div class="single-product">
@@ -189,7 +233,8 @@
                                     <ins>$1200.00</ins> <del>$1355.00</del>
                                 </div>   
                                 <div class="product-option-shop">
-                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href=""><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
                                 </div>                              
                             </div>
                             <div class="single-product">
@@ -205,6 +250,10 @@
 
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins>
+                                </div>
+                                <div class="product-option-shop">
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="">หยิบใส่ตระกร้า</a>
+                                    <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href=""><span style="color: #ffafaf;" class="glyphicon glyphicon-trash"></span></a>
                                 </div>                            
                             </div>
                         </div>
@@ -216,11 +265,11 @@
     
             <div class="maincontent-area">
             <div class=""></div>
-            <div class="container">
+            <div class="">
             <div>
                 <div class="col-md-12">
-                    <div class="latest-product">
-                        <h2 class="section-title">สถานที่ท่องเที่ยวที่ชอบ</h2>
+                    <div class="latest-product"><hr>
+                        <h2 class="textFollow">สถานที่ท่องเที่ยวที่ชอบ</h2><hr>
                         <div class="product-carousel">
                             <div class="single-product">
                                 <div class="product-f-image">
