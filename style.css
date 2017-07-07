@@ -120,6 +120,8 @@ body {
 
 .logo h1 a span {
     color: #38B839;
+<<<<<<< HEAD
+=======
 }
 
 .logo-main h1 {
@@ -139,6 +141,7 @@ body {
 
 .logo-main h1 a span {
     color: #38B839;
+>>>>>>> c30ab1e5728ea4f7069bc2ca3ba8ca70ef33d241
 }
 
 .shopping-item {
