@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="../compiled/flipclock.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="../compiled/flipclock.js"></script>
+    <!-- icon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <style>
     .mySlides {display:none}
@@ -70,10 +75,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">หน้าแรก</a></li>
-                        <li><a href="shop.html">ตลาด</a></li>
-                        <li><a href="#">ท่องเที่ยว</a></li>
-                        <li><a href="#">ติดต่อเรา</a></li>
+                        <li><a href="main-page.html">หน้าแรก</a></li>
+                        <li><a href="shop.php">ตลาด</a></li>
+                        <li><a href="travel.html">ท่องเที่ยว</a></li>
+                        <li><a href="contact.html">ติดต่อเรา</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,7 +113,7 @@
                     <div class="product-breadcroumb col-md-10 ">
                         <a href="index.html">หน้าแรก</a>
                         <a href="">ประมูล</a>
-                        <a href="">เมล็ดกาแฟขี้ชะมด</a>
+                        <a href="show-products.html">เมล็ดกาแฟขี้ชะมด</a>
                     </div>
 
                 </div><br>
@@ -154,8 +159,6 @@
                                 <i class="fa fa-star" aria-hidden="true"></i></span>
                             </button>
                         </div>
-
-
                     </div>
 
                     <div class="col-sm-6">
@@ -176,20 +179,84 @@
                             <br/>
 
                             <div class="row">
-                                <div class="col-sm-2"><h4>ราคา:</h4></div>
-                                <div class="col-sm-7"><h4> 200 บาท / กิโลกรัม </h4></div>
-                            </div>
+                                <div class="col-sm-6 ">
+                                    <div class="col-sm-12"><h4>ราคาประมูล ณ ปัจจุบัน :</h4></div>
+                                    <div class="col-sm-12"><h2><strong>1,000 THB</strong></h2></div>
+                                    <div class="col-sm-12">*ค่าบริการ 10%</div>
+                                </div>
 
-                            <!-- start google map -->
+                                <div class="col-sm-6">
+                                    <div class="col-sm-12"></div></br></br>
+                                    <div>
+                                        <button type="button" class="btn btn-info"><span class="glyphicon glyphicon-search"></span>ประมูล</button>
+                                    </div>
+                                </div>
+                            </div></br>
+
                             <div class="row">
-                                <div class="col-sm-3"><h4><i class="fa fa-map-marker" aria-hidden="true"></i>แผนที่</h4></div>
-                            </div>
+                                <div class="col-sm-12 ">
+                                    <div class="col-sm-5">ผู้ชนะการประมูล ณ ปัจจุบัน <span class="glyphicon glyphicon-user"></span>:</div>
+                                    <div class="col-sm-7"><strong>bhuwadach</strong></div>
+                                </div>
+                            </div></br>
+
                             <div class="row">
-                                <div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2648.833038448318!2d-89.2826271!3d48.402149400000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d59202c99c9252f%3A0x4cb61e2f5a8d87e!2s218+Humber+Crescent%2C+Thunder+Bay%2C+ON+P7C+5X2!5e0!3m2!1sen!2sca!4v1424370904204" width="100%" height="350px" frameborder="0" style="padding:10px; border:0"></iframe>
+                                <div class="col-sm-7"><strong>รายละเอียดสินค้า :</strong></div>
+                                <div class="col-sm-12 "></br>
+                                    <p>ความพิเศษของกาแฟชนิดนี้และรสชาติ</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;ชะมดโดยปกติจะกินผลไม้ อาจถูกเลี้ยงไว้ในไร่กาแฟหรือเป็นชะมดตามป่า ชะมดจะกินเฉพาะผลกาแฟที่สุกดีแล้วเท่านั้น ซึ่งเท่ากับว่าเป็นการคัดสรรเมล็ดกาแฟที่มีคุณภาพด้วย ปัจจุบันชาวไร่กาแฟจะคัดเลือกผลกาแฟจากไร่มาให้ชะมดกิน เพื่อความรวดเร็ว เมื่อชะมดกินเข้าไปแล้ว ผลกาแฟจะย่อยอยู่ในกระเพาะของมันราวหนึ่งวันครึ่ง ก่อนที่จะถ่ายออกมาเป็นเมล็ดกาแฟ ผลกาแฟตอนอยู่ในท้องของตัวชะมดจะผสมกับเอมไซม์และสารเคมีที่อยู่ในกระบวนการย่อย ทำให้โปรตีนในเมล็ดกาแฟแตกตัวเป็นโมเลกุลขนาดเล็ก      เวลานำเมล็ดกาแฟชนิดนี้ไปคั่วบดจะมีกลิ่นหอมเป็นพิเศษ ตัวชะมดจะถ่ายมูลซึ่งเหลือแต่เพียงเมล็ดกาแฟออกมา ซึ่งทำให้สะดวกต่อการเก็บมูลของมัน
+                                        เมล็ดกาแฟที่เก็บได้ซึ่งมีมูลของตัวชะมดติดออกมาด้วยเล็กน้อย จะถูกนำมาตากแห้ง ก่อนที่จะนำไปล้างให้สะอาด และนำไปคั่วเพียงเล็กน้อย เพื่อให้ได้สีน้ำตาลอ่อนหรือเข้มกว่าเพียงเล็กน้อย เพื่อให้คงไว้ซึ่งรสชาติอันเป็นเอกลักษณ์
+                                    </p>
                                 </div>
                             </div>
-                            <!-- end google map -->
+                            <div class="related-products-wrapper">
+                              <h2 class="related-products-title">มาตรฐานที่ได้รับ</h2>
+                              <div class="row">
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">GAP</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">GMP</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">IFOAM</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">Halal</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">Organic Thailand</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">Q</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">อย.</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">Q Premium</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">HACCP</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">BRC</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">ISO 22000</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">ISO 22000: 2005</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">PSG Organic</label>
+                                </div>
+                                <div class="col-sm-3">
+                                  <label class="checkbox-inline"><input type="checkbox" value="1">อื่นๆ</label>
+                                </div>
+                              </div><br>
+                            </div>
+
                             <!-- Comment -->
                             <div class="row">
                                 <div class="form-group">

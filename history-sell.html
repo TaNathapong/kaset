@@ -37,6 +37,26 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+    <style>
+    .row{
+        margin-top:40px;
+        padding: 0 10px;
+        }
+        .clickable{
+        cursor: pointer;
+        }
+
+        .panel-heading div {
+        margin-top: -18px;
+        font-size: 15px;
+        }
+        .panel-heading div span{
+        margin-left:5px;
+        }
+        .panel-body{
+        display: none;
+        }
+    </style>
   <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
     <div class="header-area">
       <div class="container">
@@ -84,12 +104,12 @@
             </button>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">หน้าแรก</a></li>
-              <li><a href="shop.php">ตลาด</a></li>
-              <li><a href="travel.html">ท่องเที่ยว</a></li>
-              <li><a href="contract.html">ติดต่อเรา</a></li>
-            </ul>
+              <ul class="nav navbar-nav">
+                  <li><a href="main-page.html">หน้าแรก</a></li>
+                  <li><a href="shop.php">ตลาด</a></li>
+                  <li><a href="travel.html">ท่องเที่ยว</a></li>
+                  <li><a href="contact.html">ติดต่อเรา</a></li>
+              </ul>
           </div>
         </div>
       </div>
@@ -115,94 +135,97 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-12">
-            <div class="product-content-right">
-              <div class="woocommerce">
-                <form method="post" action="#">
-                  <table cellspacing="0" class="shop_table cart ">
-                    <thead class="thead-inverse">
-                      <tr>
-                        <th class="product-pic">รายการสินค้า</th>
-                        <th class="product-name">ชื่อสินค้า</th>
-                        <th class="product-cost">ราคา</th>
-                        <th class="product-buyer">ผู้ซื้อ</th>
-                        <th class="product-date">วันที่ซื้อ</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="cart_item">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">ประวัติการขาย</h3>
+                            <div class="pull-right">
+                                <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+                                    <i class="fa fa-filter" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filter Developers" />
+                        </div>
+                        <table class="table table-hover" id="dev-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th class="product-name">รายการสินค้า</th>
+                                    <th class="product-cost">ราคา</th>
+                                    <th class="product-buyer">ผู้ซื้อ</th>
+                                    <th class="product-date">วันที่ซื้อ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="cart_item">
+                                <td>1</td>
 
-                        <td class="product-pic">
-                          <img src="img/Dark-Green.jpeg" width="100px" height="100px">
-                        </td>
 
-                        <td class="product-name">
-                          <a href="show-products.html">ผักสลัดกรีนโอ๊ค</a>
-                        </td>
+                                <td class="product-name">
+                                  <a href="show-products.html">ผักสลัดกรีนโอ๊ค</a>
+                                </td>
 
-                        <td class="product-cost">
-                          <span class="amount">฿250.00</span>
-                        </td>
+                                <td class="product-cost">
+                                  <span class="amount">฿250.00</span>
+                                </td>
 
-                        <td class="product-buyer">
-                          <span class="amount">ไท ราชสีห์</span>
-                        </td>
-                        <td class="product-date">
-                          <span class="amount">28.06.2017</span>
-                        </td>
-                      </tr>
-                      <tr class="cart_item">
+                                <td class="product-buyer">
+                                  <span class="amount">ไท ราชสีห์</span>
+                                </td>
+                                <td class="product-date">
+                                  <span class="amount">28.06.2017</span>
+                                </td>
+                              </tr>
+                              <tr class="cart_item">
+                                <td>2</td>
 
-                        <td class="product-pic">
-                          <img src="img/bell_chilli.jpg" width="100px" height="100px">
-                        </td>
+                                <td class="product-name">
+                                  <a href="show-products.html">พริกหวาน</a>
+                                </td>
 
-                        <td class="product-name">
-                          <a href="show-products.html">พริกหวาน</a>
-                        </td>
+                                <td class="product-cost">
+                                  <span class="amount">฿100.00</span>
+                                </td>
 
-                        <td class="product-cost">
-                          <span class="amount">฿100.00</span>
-                        </td>
+                                <td class="product-buyer">
+                                  <span class="amount">นาวี สมุทรสาร</span>
+                                </td>
+                                <td class="product-date">
+                                  <span class="amount">20.06.2017</span>
+                                </td>
+                              </tr>
+                              <tr class="cart_item">
+                                  <td>3</td>
 
-                        <td class="product-buyer">
-                          <span class="amount">นาวี สมุทรสาร</span>
-                        </td>
-                        <td class="product-date">
-                          <span class="amount">20.06.2017</span>
-                        </td>
-                      </tr>
-                      <tr class="cart_item">
+                                <td class="product-name">
+                                  <a href="show-products.html">บร็อคโคลี่</a>
+                                </td>
 
-                        <td class="product-pic">
-                          <img src="img/broccoli.jpg" width="100px" height="100px">
-                        </td>
+                                <td class="product-cost">
+                                  <span class="amount">฿55.00</span>
+                                </td>
 
-                        <td class="product-name">
-                          <a href="show-products.html">บร็อคโคลี่</a>
-                        </td>
+                                <td class="product-buyer">
+                                  <span class="amount">คม คชสาร</span>
+                                </td>
+                                <td class="product-date">
+                                  <span class="amount">15.06.2017</span>
+                                </td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-                        <td class="product-cost">
-                          <span class="amount">฿55.00</span>
-                        </td>
+</div>
 
-                        <td class="product-buyer">
-                          <span class="amount">คม คชสาร</span>
-                        </td>
-                        <td class="product-date">
-                          <span class="amount">15.06.2017</span>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </form>
-              </div>
-            </div>
-          </div>
           <div class="row">
               <div class="col-sm-10"> </div>
               <div class="col-sm-2">
-                      <div class="text-center"><a href="seller-profile.php" class="btn btn-seccess btn-s"><buttom>กลับ</buttom></a></div>
+                      <button type="button" class="btn btn-info">กลับ</button>
               </div>
           </div>
         </div>
@@ -307,5 +330,8 @@
 
   <!-- Main Script -->
   <script src="js/main.js"></script>
+
+  <!-- table and filter -->
+  <script src="js/history-sell.js"></script>
 </body>
 </html>
