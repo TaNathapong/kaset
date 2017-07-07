@@ -187,7 +187,7 @@
                                     <div ><h1>เมล็ดกาแฟขี้ชะมด</h1></div><br>
                                     <div class="row">
                                         <!-- coundown timer-->
-                                        <div class="col-sm-6 ">
+                                        <div class="col-sm-12">
                                             <div class="clock" style="margin:2em;"></div>
                                         	<div class="message"></div>
 
@@ -196,9 +196,9 @@
 
                                         		$(document).ready(function() {
 
-                                        			clock = $('.clock').FlipClock({
-                                        		        clockFace: 'HourlyCounter'
-                                        		    });
+                                                    clock = $('.clock').FlipClock(3600, {
+                                                		countdown: true
+                                                	});
                                         		});
                                         	</script>
                                         </div>
