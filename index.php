@@ -76,7 +76,7 @@
                 <div class="col-xs-6"></div>
                 <div class="col-md-6 col-xs-6">
                     <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">฿800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
                     </div>
                 </div>
             </div>
