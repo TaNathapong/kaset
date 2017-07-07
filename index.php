@@ -33,7 +33,7 @@
                 <div class="col-md-8 col-xs-8">
                     <div class="user-menu text-right">
                         <ul>
-                            <li><a href="profile_sell.html"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
+                            <li><a href="seller-profile.html"><i class="fa fa-user"></i>บัญชีของฉัน</a></li>
                             <li><a href="login.html"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
                         </ul>
                     </div>
@@ -317,7 +317,8 @@
                         <li><a href="">ทั้งหมด</a></li>
                         <li><a href="">ผัก</a></li>
                         <li><a href="">ผลไม้</a></li>
-                        <li><a href="">OTOP</a></li>
+                        <li><a href="otop.html">OTOP</a></li>
+                        <li><a href="processed.html">แปรรูป</a></li>
                         <li><a href="">Premium</a></li>
                         <li><a href="">อุปกรณ์ทางการเกษตร</a></li>
                     </ul>
