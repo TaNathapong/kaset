@@ -55,10 +55,17 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+<<<<<<< HEAD
+                        <li class="active"><a href="index.php">หน้าแรก</a></li>
+                        <li><a href="shop.php">ตลาด</a></li>
+                        <li><a href="#">ท่องเที่ยว</a></li>
+                        <li><a href="#">ติดต่อเรา</a></li>
+=======
                         <li><a href="index.php">หน้าแรก</a></li>
                         <li><a href="shop.php">ตลาด</a></li>
                         <li><a href="travel.html">ท่องเที่ยว</a></li>
                         <li><a href="contract.html">ติดต่อเรา</a></li>
+>>>>>>> c30ab1e5728ea4f7069bc2ca3ba8ca70ef33d241
                     </ul>
                 </div>
             </div>

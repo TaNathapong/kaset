@@ -165,25 +165,40 @@
     border-radius: 0 3px 3px 0;
 }
 .w3-badge {height:13px;width:13px;padding:0}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #454545;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+li a span{
+    color: green;
+}
 </style>
 
 <!-- navbar -->
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-8">
-            <a class="navbar-nav" href="index.php">
-                <div class="logo-main">
-                    <h1><a href="index.php">Green<span>House</span></a></h1>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-4">
-        </br></br>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><i class="material-icons">search</i></a></li>
-            <li><a href="#"><i class="material-icons">person</i></a></li>
-            <li><a href="#"><i class="material-icons">add_shopping_cart</i></a></li>
+        <ul>
+            <li><a href="index.php" style="font-size: 24px; padding:12px">Green<span>House</span></a></li>
+            <li style="float:right"><a href="#"><i class="material-icons">search</i></a></li>
+            <li style="float:right"><a href="#"><i class="material-icons">person</i></a></li>
+            <li style="float:right"><a href="#"><i class="material-icons">add_shopping_cart</i></a></li>
         </ul>
     </div>
 </div>
