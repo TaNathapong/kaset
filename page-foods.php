@@ -59,45 +59,89 @@
 
 
 <!-- start food list -->  
-<?php $namefood = array("ผัดผักบุ้ง","ต้มจืด","ต้มยำกุ้ง"); $i=0; $j=0;?>
     <div class="container" > 
         <h2 id="demo01">วันนี้คุณทำอาหารหรือยัง ?</h2>
             <div class="row">
-                <?php while($i<3){ ?>
-                <div class="col-md-4">
-                    <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-1.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
+                        <hr>เมนู : ผัดผักบุ้งไฟแดง<br><hr>
                     </div>
                 </div>
-            <?php $i++; }?>
+            
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-2.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : แกงจืดมะระ<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-3.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ต้มยำกุ้ง<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/clean2.jpg" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ข้าวน้ำพริกปลาทู<br><hr>
+                    </div>
+                </div>
             </div>
-            <?php $i=0; ?>
             <div class="row">
-                <?php while($i<3){ ?>
-                <div class="col-md-4">
-                    <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-1.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
+                        <hr>เมนู : ผัดผักบุ้งไฟแดง<br><hr>
                     </div>
                 </div>
-            <?php $i++; }?>
+            
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-2.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : แกงจืดมะระ<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-3.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ต้มยำกุ้ง<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/clean2.jpg" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ข้าวน้ำพริกปลาทู<br><hr>
+                    </div>
+                </div>
             </div>
-            <?php $i=0; ?>
             <div class="row">
-                <?php while($i<3){ ?>
-                <div class="col-md-4">
-                    <img id="oh" src="img/food-<?php echo($i+1); ?>.png" class="img-rounded" alt="Cinque Terre">
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-1.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
                     <div align="center" style="margin: 20px 20px 20px 20px;"> 
-                        <hr>เมนู : อาหารสำหรับวันนี้<br><hr>
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="food-detail.html">รายละเอียด</a>
+                        <hr>เมนู : ผัดผักบุ้งไฟแดง<br><hr>
                     </div>
                 </div>
-            <?php $i++; }?>
-            </div>
-        
+            
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-2.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : แกงจืดมะระ<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/food-3.png" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ต้มยำกุ้ง<br><hr>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="food-detail.html"><img id="oh" src="img/clean2.jpg" class="img-rounded" alt="Cinque Terre" style="width:250px; height:150px;"></a>
+                    <div align="center" style="margin: 20px 20px 20px 20px;"> 
+                        <hr>เมนู : ข้าวน้ำพริกปลาทู<br><hr>
+                    </div>
+                </div>
+            </div>      
     </div>
 <!-- end food list -->
 
