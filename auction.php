@@ -37,8 +37,8 @@
                 <div class="col-md-8">
                     <div class="user-menu text-right">
                         <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
+                            <li><a href="customer-proflie.php"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
+                            <li><a href="login.html"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.php">Green<span>House</span></a></h1>
+                        <h1><a href="main-page.html">Green<span>House</span></a></h1>
                     </div>
                 </div>
 
