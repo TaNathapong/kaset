@@ -319,13 +319,13 @@
                     <center><h3>ประเภทสินค้า</h3></center>
                 </div>
                 <ul class="w3-ul w3-border col-md-12 col-xs-6">
-                    <li><a href="">ทั้งหมด</a></li>
-                    <li><a href="">ผัก</a></li>
-                    <li><a href="">ผลไม้</a></li>
+                    <li><a href="shop.php">ทั้งหมด</a></li>
+                    <li><a href="shop.php">ผัก</a></li>
+                    <li><a href="fruit.html">ผลไม้</a></li>
                     <li><a href="otop.html">OTOP</a></li>
                     <li><a href="processed.html">แปรรูป</a></li>
-                    <li><a href="">Premium</a></li>
-                    <li><a href="">อุปกรณ์ทางการเกษตร</a></li>
+                    <li><a href="premium.html">Premium</a></li>
+                    <li><a href="equipment.html">อุปกรณ์ทางการเกษตร</a></li>
                 </ul>
             </div>
         </div>
