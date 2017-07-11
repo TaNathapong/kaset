@@ -22,6 +22,13 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/flipclock.scss">
+
+    <!-- timer -->
+    <link rel="stylesheet" href="../compiled/flipclock.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../compiled/flipclock.js"></script>
 </head>
 
 <body>
@@ -451,7 +458,7 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">User Navigation </h2>
                         <ul>
-                            <li><a href="#">My account</a></li>
+                            <li><a href="#">บัญชีของฉัน</a></li>
                             <li><a href="#">Order history</a></li>
                             <li><a href="#">Wishlist</a></li>
                             <li><a href="#">Vendor contact</a></li>
@@ -462,13 +469,14 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-menu">
-                        <h2 class="footer-wid-title">Categories</h2>
+                        <h2 class="footer-wid-title">ประเภทสินค้า</h2>
                         <ul>
-                            <li><a href="#">Mobile Phone</a></li>
-                            <li><a href="#">Home accesseries</a></li>
-                            <li><a href="#">LED TV</a></li>
-                            <li><a href="#">Computer</a></li>
-                            <li><a href="#">Gadets</a></li>
+                            <li><a href="#">ผัก</a></li>
+                            <li><a href="#">ผลไม้</a></li>
+                            <li><a href="#">OTOP</a></li>
+                            <li><a href="#">แปรรูป</a></li>
+                            <li><a href="#">Premium</a></li>
+                            <li><a href="#">อุปกรณ์การเกษตร</a></li>
                         </ul>
                     </div>
                 </div>
@@ -494,7 +502,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2015 GreenHouse. All Rights Reserved.</a></p>
+                        <p>&copy; 2017 GreenHouse. All Rights Reserved.</a></p>
                     </div>
                 </div>
 
