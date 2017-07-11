@@ -11,6 +11,8 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Kanit' rel="stylesheet" type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kanit' rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -33,8 +35,8 @@
                 <div class="col-md-8">
                     <div class="user-menu text-right">
                         <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
+                            <li><a href="customer-proflie.php"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
+                            <li><a href="login.html"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
                         </ul>
                     </div>
                 </div>
