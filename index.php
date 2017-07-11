@@ -36,8 +36,6 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-4"></div>
-                <div class="col-md-8 col-xs-8">
                     <div class="user-menu text-right">
                         <ul>
                             <li><a href="seller-profile.html"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
