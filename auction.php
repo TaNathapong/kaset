@@ -160,7 +160,6 @@
                                 </div>
 
                                 <h2><a href="show-products.html">ทุเรียนหมอนทอง</a></h2>
-
                                 <div class="promo-price">
                                     <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
                                     <ins>฿996.00</ins>
@@ -175,7 +174,6 @@
                                 </div>
 
                                 <h2><a href="show-products.html"ดอกโบตั่น</a></h2>
-
                                 <div class="promo-price">
                                     <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
                                     <ins>฿3700.00</ins>
