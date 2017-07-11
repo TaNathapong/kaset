@@ -26,8 +26,6 @@
     <link rel="stylesheet" href="css/flipclock.css">
     <link rel="stylesheet" href="css/flipclock.scss">
 
-
-
 </head>
 
 <body>
@@ -98,7 +96,6 @@
 
     <div class="shop-area">
         <div class="container">
-            <center><h2>สินค้า</h2></center>
             <div class="col-md-3">
                 <div class="category-list">
                     <div class="col-md-12 col-xs-6">
@@ -119,85 +116,82 @@
             <div class="col-md-9">
                 <!-- gallery -->
                 <div class="row" style="padding:10px;">
-                    <div class="latest-product">
-                        <div class="product-carousel">
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/coffee4.png" style="max-width:1200px">
-                                    <div class="product-hover">
-                                        <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
-                                    </div>
-                                </div>
 
-                                <h2><a href="show-products.html">เมล็ดกาแฟขี้ชะมด</a></h2>
-
-                                <!-- coundown timer-->
-                                <div class="row">
-                                        <div id="countbox1"></div>
-                                </div><br/>
-
-                                <div class="promo-price">
-                                    <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
-                                    <ins>฿1000.00</ins>
-                                </div>
+                    <div class="single-product col-md-3" style="padding:10px;">
+                        <div class="product-f-image">
+                            <img src="img/coffee4.png" alt="">
+                            <div class="product-hover">
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/green-tea.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
-                                    </div>
-                                </div>
+                        </div>
 
-                                <h2><a href="show-products.html">ชาเขียว</a></h2>
-                                <div class="promo-price">
-                                    <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
-                                    <ins>฿2500.00</ins>
-                                </div>
+                        <h2><a href="show-products.html">เมล็ดกาแฟขี้ชะมด</a></h2>
+
+                        <div class="promo-price">
+                            <div id="countbox1"></div>
+                            <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
+                            <ins>฿1000.00</ins>
+                        </div>
+                    </div>
+                    <div class="single-product col-md-3" style="padding:10px;">
+                        <div class="product-f-image">
+                            <img src="img/green-tea.jpg" alt="">
+                            <div class="product-hover">
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/durian-300.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
-                                    </div>
-                                </div>
+                        </div>
 
-                                <h2><a href="show-products.html">ทุเรียนหมอนทอง</a></h2>
-                                <div class="promo-price">
-                                    <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
-                                    <ins>฿996.00</ins>
-                                </div>
+                        <h2><a href="show-products.html">ชาเขียว</a></h2>
+                        <div class="promo-price">
+                            <div id="countbox2"></div>
+                            <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
+                            <ins>฿2500.00</ins>
+                        </div>
+                    </div>
+                    <div class="single-product col-md-3" style="padding:10px;">
+                        <div class="product-f-image">
+                            <img src="img/durian-300.jpg" alt="">
+                            <div class="product-hover">
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/botun.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
-                                    </div>
-                                </div>
+                        </div>
 
-                                <h2><a href="show-products.html">ดอกโบตั่น</a></h2>
-                                <div class="promo-price">
-                                    <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
-                                    <ins>฿3700.00</ins>
-                                </div>
+                        <h2><a href="show-products.html">ทุเรียนหมอนทอง</a></h2>
+                        <div class="promo-price">
+                            <div id="countbox3"></div>
+                            <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
+                            <ins>฿996.00</ins>
+                        </div>
+                    </div>
+                    <div class="single-product col-md-3" style="padding:10px;">
+                        <div class="product-f-image">
+                            <img src="img/botun.jpg" alt="">
+                            <div class="product-hover">
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/rose154.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
-                                    </div>
-                                </div>
+                        </div>
 
-                                <h2><a href="show-products.html">ดอกกุหลาบคุนหมิง สีเหลือง</a></h2>
-
-                                <div class="promo-price">
-                                    <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
-                                    <ins>฿1200.00</ins>
-                                </div>
+                        <h2><a href="show-products.html">ดอกโบตั่น</a></h2>
+                        <div class="promo-price">
+                            <div id="countbox4"></div>
+                            <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
+                            <ins>฿3700.00</ins>
+                        </div>
+                    </div>
+                    <div class="single-product col-md-3" style="padding:10px;">
+                        <div class="product-f-image">
+                            <img src="img/rose154.jpg" alt="">
+                            <div class="product-hover">
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
                             </div>
+                        </div>
+
+                        <h2><a href="show-products.html">ดอกกุหลาบคุนหมิง สีเหลือง</a></h2>
+
+                        <div class="promo-price">
+                            <div id="countbox5"></div>
+                            <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
+                            <ins>฿1200.00</ins>
                         </div>
                     </div>
                 </div>
@@ -313,91 +307,95 @@
     // Description: displays the amount of time until the "dateFuture" entered below.
 
     var CDown = function() {
-    	this.state=0;// if initialized
-    	this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
-    	this.interval=null;// setInterval object
+        this.state=0;// if initialized
+        this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
+        this.interval=null;// setInterval object
     }
 
     CDown.prototype = {
-    	init: function(){
-    		this.state=1;
-    		var self=this;
-    		this.interval=window.setInterval(function(){self.tick();}, 1000);
-    	},
-    	add: function(date,id){
-    		this.counts.push({d:date,id:id});
-    		this.tick();
-    		if(this.state==0) this.init();
-    	},
-    	expire: function(idxs){
-    		for(var x in idxs) {
-    			this.display(this.counts[idxs[x]], "สิ้นสุดการประมูล!");
-    			this.counts.splice(idxs[x], 1);
-    		}
-    	},
-    	format: function(r){
-    		var pre='',post='',divide=', ',
-    			out="";
-    		if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"hour":"hours")+post+divide;}
-    		out += pre+r.m +" "+((r.m==1)?"min":"mins")+post+divide;
-    		out += pre+r.s +" "+((r.s==1)?"sec":"secs")+post+divide;
+        init: function(){
+            this.state=1;
+            var self=this;
+            this.interval=window.setInterval(function(){self.tick();}, 1000);
+        },
+        add: function(date,id){
+            this.counts.push({d:date,id:id});
+            this.tick();
+            if(this.state==0) this.init();
+        },
+        expire: function(idxs){
+            for(var x in idxs) {
+                this.display(this.counts[idxs[x]], "สิ้นสุดการประมูล!");
+                this.counts.splice(idxs[x], 1);
+            }
+        },
+        format: function(r){
+            var pre='',post='',divide=', ',
+            out="";
+            if(r.h != 0){out += pre+r.h +" "+((r.h==1)?"hour":"hours")+post+divide;}
+            out += pre+r.m +" "+((r.m==1)?"min":"mins")+post+divide;
+            out += pre+r.s +" "+((r.s==1)?"sec":"secs")+post+divide;
 
-    		return out.substr(0,out.length-divide.length);
-    	},
-    	math: function(work){
-    		var	y=w=d=h=m=s=ms=0;
+            return out.substr(0,out.length-divide.length);
+        },
+        math: function(work){
+            var	y=w=d=h=m=s=ms=0;
 
-    		ms=(""+((work%1000)+1000)).substr(1,3);
-    		work=Math.floor(work/1000);//kill the "milliseconds" so just secs
+            ms=(""+((work%1000)+1000)).substr(1,3);
+            work=Math.floor(work/1000);//kill the "milliseconds" so just secs
 
-    		y=Math.floor(work/31536000);//years (no leapyear support)
-    		w=Math.floor(work/604800);//weeks
-    		d=Math.floor(work/86400);//days
-    		h=Math.floor(work/3600);//hours
-    		work=work%3600;
+            y=Math.floor(work/31536000);//years (no leapyear support)
+            w=Math.floor(work/604800);//weeks
+            d=Math.floor(work/86400);//days
+            h=Math.floor(work/3600);//hours
+            work=work%3600;
 
-    		m=Math.floor(work/60);//minutes
-    		work=work%60;
+            m=Math.floor(work/60);//minutes
+            work=work%60;
 
-    		s=Math.floor(work);//seconds
+            s=Math.floor(work);//seconds
 
-    		return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
-    	},
-    	tick: function(){
-    		var now=(new Date()).getTime(),
-    			expired=[],cnt=0,amount=0;
+            return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
+        },
+        tick: function(){
+            var now=(new Date()).getTime(),
+            expired=[],cnt=0,amount=0;
 
-    		if(this.counts)
-    		for(var idx=0,n=this.counts.length; idx<n; ++idx){
-    			cnt=this.counts[idx];
-    			amount=cnt.d.getTime()-now;//calc milliseconds between dates
+            if(this.counts)
+            for(var idx=0,n=this.counts.length; idx<n; ++idx){
+                cnt=this.counts[idx];
+                amount=cnt.d.getTime()-now;//calc milliseconds between dates
 
-    			// if time is already past
-    			if(amount<0){
-    				expired.push(idx);
-    			}
-    			// date is still good
-    			else{
-    				this.display(cnt, this.format(this.math(amount)));
-    			}
-    		}
+                // if time is already past
+                if(amount<0){
+                    expired.push(idx);
+                }
+                // date is still good
+                else{
+                    this.display(cnt, this.format(this.math(amount)));
+                }
+            }
 
-    		// deal with any expired
-    		if(expired.length>0) this.expire(expired);
+            // deal with any expired
+            if(expired.length>0) this.expire(expired);
 
-    		// if no active counts, stop updating
-    		if(this.counts.length==0) window.clearTimeout(this.interval);
+            // if no active counts, stop updating
+            if(this.counts.length==0) window.clearTimeout(this.interval);
 
-    	},
-    	display: function(cnt,msg){
-    		document.getElementById(cnt.id).innerHTML=msg;
-    	}
+        },
+        display: function(cnt,msg){
+            document.getElementById(cnt.id).innerHTML=msg;
+        }
     };
 
     window.onload=function(){
-    	var cdown = new CDown();
+        var cdown = new CDown();
 
-    	cdown.add(new Date(2017,6,12,11,3,27), "countbox1");
+        cdown.add(new Date(2017,6,12,11,3,27), "countbox1");
+        cdown.add(new Date(2017,6,12,11,3,27), "countbox2");
+        cdown.add(new Date(2017,6,12,11,3,27), "countbox3");
+        cdown.add(new Date(2017,6,12,11,3,27), "countbox4");
+        cdown.add(new Date(2017,6,12,11,3,27), "countbox5");
     };
     </script>
 
