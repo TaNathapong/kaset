@@ -118,12 +118,8 @@
                 <div class="col-sm-6">
                     <div class="product-inner">
                         <h2 class="product-name">ข้อมูลผู้ขนส่ง</h2>
-                        <div class="product-inner-price">
-                            <ins>พื้นที่ให้บริการ</ins>
-                        </div>
                         <div class="product-breadcroumb">
-                            <a href="">ติดตาม</a>
-                            <a href="">จำนวนสินค้า</a>
+                            <a href="tracking.php">ติดตาม</a>
                             <a href="">จำนวนผู้เข้าชม</a>
                         </div>
                         <hr/>
