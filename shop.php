@@ -113,11 +113,11 @@
                                 <img src="img/product-1.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">แครอท</a></h2>
+                            <h2><a href="show-products-buyer.html">แครอท</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿700.00</ins> <del>฿800.00</del>
@@ -128,11 +128,11 @@
                                 <img src="img/product-2.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">มะเขือเทศ</a></h2>
+                            <h2><a href="show-products-buyer.html">มะเขือเทศ</a></h2>
                             <div class="promo-price">
                                 <ins>฿899.00</ins> <del>฿999.00</del>
                             </div>
@@ -142,11 +142,11 @@
                                 <img src="img/product-3.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">มันฝรั่ง</a></h2>
+                            <h2><a href="show-products-buyer.html">มันฝรั่ง</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿400.00</ins> <del>฿425.00</del>
@@ -157,11 +157,11 @@
                                 <img src="img/product-4.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ข้าวโพด</a></h2>
+                            <h2><a href="show-products-buyer.html">ข้าวโพด</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿200.00</ins> <del>฿225.00</del>
@@ -172,11 +172,11 @@
                                 <img src="img/product-5.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">เผือก</a></h2>
+                            <h2><a href="show-products-buyer.html">เผือก</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿1200.00</ins> <del>฿1355.00</del>
@@ -187,11 +187,11 @@
                                 <img src="img/product-6.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">แตงกวา</a></h2>
+                            <h2><a href="show-products-buyer.html">แตงกวา</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿400.00</ins>
@@ -219,11 +219,11 @@
                                 <img src="img/product-1.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">แครอท</a></h2>
+                            <h2><a href="show-products-buyer.html">แครอท</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿700.00</ins> <del>฿800.00</del>
@@ -234,11 +234,11 @@
                                 <img src="img/product-2.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">มะเขือเทศ</a></h2>
+                            <h2><a href="show-products-buyer.html">มะเขือเทศ</a></h2>
                             <div class="promo-price">
                                 <ins>฿899.00</ins> <del>฿999.00</del>
                             </div>
@@ -248,11 +248,11 @@
                                 <img src="img/product-3.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">มันฝรั่ง</a></h2>
+                            <h2><a href="show-products-buyer.html">มันฝรั่ง</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿400.00</ins> <del>฿425.00</del>
@@ -263,11 +263,11 @@
                                 <img src="img/product-4.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ข้าวโพด</a></h2>
+                            <h2><a href="show-products-buyer.html">ข้าวโพด</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿200.00</ins> <del>฿225.00</del>
@@ -278,11 +278,11 @@
                                 <img src="img/product-5.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">เผือก</a></h2>
+                            <h2><a href="show-products-buyer.html">เผือก</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿1200.00</ins> <del>฿1355.00</del>
@@ -293,11 +293,11 @@
                                 <img src="img/product-6.jpg" alt="">
                                 <div class="product-hover">
                                     <a href="cart.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ใส่ลงตะกร้า</a>
-                                    <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
+                                    <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> ดูรายละเอียด</a>
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">แตงกวา</a></h2>
+                            <h2><a href="show-products-buyer.html">แตงกวา</a></h2>
 
                             <div class="promo-price">
                                 <ins>฿400.00</ins>
@@ -326,7 +326,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">เมล็ดกาแฟขี้ชะมด</a></h2>
+                            <h2><a href="show-products-buyer.html">เมล็ดกาแฟขี้ชะมด</a></h2>
 
                             <div class="promo-price">
                                 <div id="countbox1"></div>
@@ -342,7 +342,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ชาเขียว</a></h2>
+                            <h2><a href="show-products-buyer.html">ชาเขียว</a></h2>
                             <div class="promo-price">
                                 <div id="countbox2"></div>
                                 <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
@@ -357,7 +357,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ทุเรียนหมอนทอง</a></h2>
+                            <h2><a href="show-products-buyer.html">ทุเรียนหมอนทอง</a></h2>
                             <div class="promo-price">
                                 <div id="countbox3"></div>
                                 <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
@@ -372,7 +372,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ดอกโบตั่น</a></h2>
+                            <h2><a href="show-products-buyer.html">ดอกโบตั่น</a></h2>
                             <div class="promo-price">
                                 <div id="countbox4"></div>
                                 <ins>ราคาประมูล ณ ปัจจุบัน :</ins></br>
@@ -387,7 +387,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">ดอกกุหลาบคุนหมิง สีเหลือง</a></h2>
+                            <h2><a href="show-products-buyer.html">ดอกกุหลาบคุนหมิง สีเหลือง</a></h2>
 
                             <div class="promo-price">
                                 <div id="countbox5"></div>
@@ -403,7 +403,7 @@
                                 </div>
                             </div>
 
-                            <h2><a href="show-products.html">แตงกวา</a></h2>
+                            <h2><a href="show-products-buyer.html">แตงกวา</a></h2>
 
                             <div class="promo-price">
                                 <div id="countbox5"></div>
@@ -444,7 +444,7 @@
                     ?>
                     <div class="col-md-3 col-xs-6">
                         <div class="single-shop-product">
-                            <a href="show-products.html">
+                            <a href="show-products-buyer.html">
                                 <div class="product-upper">
                                     <img src="img/product-2.jpg" class="img-thumbnail" alt="">
                                 </div>
@@ -462,7 +462,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="single-shop-product">
-                            <a href="show-products.html">
+                            <a href="show-products-buyer.html">
                                 <div class="product-upper">
                                     <img src="img/product-1.jpg" class="img-thumbnail" alt="">
                                 </div>
@@ -479,7 +479,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="single-shop-product">
-                            <a href="show-products.html">
+                            <a href="show-products-buyer.html">
                                 <div class="product-upper">
                                     <img src="img/product-3.jpg" class="img-thumbnail" alt="">
                                 </div>
@@ -496,7 +496,7 @@
                     </div>
                     <div class="col-md-3 col-xs-6">
                         <div class="single-shop-product">
-                            <a href="show-products.html">
+                            <a href="show-products-buyer.html">
                                 <div class="product-upper">
                                     <img src="img/product-4.jpg" class="img-thumbnail" alt="">
                                 </div>
