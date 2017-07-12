@@ -104,7 +104,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="shop.php">Shop page</a></li>
-                        <li><a href="show-products.html">Single product</a></li>
+                        <li><a href="show-products-buyer.html">Single product</a></li>
                         <li><a href="cart.html">Cart</a></li>
                         <li><a href="checkout.html">Checkout</a></li>
                         <li><a href="#">Category</a></li>
@@ -129,10 +129,10 @@
                                     <img src="img/product-1.jpg" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="show-products.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="show-products-buyer.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                     </div>
                                 </div>                        
-                                    <h2><a href="show-products.html">Sony Smart TV - 2015</a></h2>            
+                                    <h2><a href="show-products-buyer.html">Sony Smart TV - 2015</a></h2>            
                                     <div class="product-carousel-price">
                                         <ins>$700.00</ins> <del>$800.00</del>
                                     </div> 

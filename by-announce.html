@@ -1,426 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ลงประกาศซื้อสินค้า - GreenHouse</title>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ลงประกาศซื้อสินค้า - GreenHouse</title>
 
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+   <!-- Google Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+</head>
+<body>
 
-    <div class="header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="user-menu">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
-                            <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                            <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+   <div class="header-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8">
+               <div class="user-menu">
+                  <ul>
+                     <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
+                     <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
+                     <li><a href="cart.html"><i class="fa fa-user"></i> My Cart</a></li>
+                     <li><a href="checkout.html"><i class="fa fa-user"></i> Checkout</a></li>
+                     <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <div class="header-right">
+                  <ul class="list-unstyled list-inline">
+                     <li class="dropdown dropdown-small">
+                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">currency :</span><span class="value">USD </span><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">USD</a></li>
+                           <li><a href="#">INR</a></li>
+                           <li><a href="#">GBP</a></li>
                         </ul>
-                    </div>
-                </div>
+                     </li>
 
-                <div class="col-md-4">
-                    <div class="header-right">
-                        <ul class="list-unstyled list-inline">
-                            <li class="dropdown dropdown-small">
-                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">currency :</span><span class="value">USD </span><b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">USD</a></li>
-                                    <li><a href="#">INR</a></li>
-                                    <li><a href="#">GBP</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown dropdown-small">
-                                <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">German</a></li>
-                                </ul>
-                            </li>
+                     <li class="dropdown dropdown-small">
+                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">English</a></li>
+                           <li><a href="#">French</a></li>
+                           <li><a href="#">German</a></li>
                         </ul>
-                    </div>
-                </div>
+                     </li>
+                  </ul>
+               </div>
             </div>
-        </div>
-    </div> <!-- End header area -->
+         </div>
+      </div>
+   </div> <!-- End header area -->
 
-    <div class="site-branding-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="logo">
-                        <h1><a href="index.php"><span>GreenHouse</span></a></h1>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
-                </div>
+   <div class="site-branding-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="logo">
+                  <h1><a href="index.php"><span>GreenHouse</span></a></h1>
+               </div>
             </div>
-        </div>
-    </div> <!-- End site branding area -->
 
-    <div class="mainmenu-area">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">หน้าแรก</a></li>
-                        <li><a href="seller-profile.html">ประวัติผู้ขาย</a></li>
-                        <li><a href="order-list.html">รายการสั่งซื้อ</a></li>
-                        <li><a href="by-announce.html">ประกาศซื้อสินค้า</a></li>
-                    </ul>
-                </div>
+            <div class="col-sm-6">
+               <div class="shopping-item">
+                  <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+               </div>
             </div>
-        </div>
-    </div> <!-- End mainmenu area -->
+         </div>
+      </div>
+   </div> <!-- End site branding area -->
 
-    <div class="product-big-title-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="product-bit-title text-center"><br>
-                        <h2>ลงประกาศซื้อสินค้า</h2>
-                    </div>
-                </div>
+   <div class="mainmenu-area">
+      <div class="container">
+         <div class="row">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
             </div>
-        </div>
-    </div>
-<div class="single-product-area">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-<!--ขวา-->			<div class="right">
-					ขวา
-				</div>
-			</div>
-<!--กึ่งกลาง-->		<div class="col-md-4">
-				<div class="product-content-right">
-					<div class="woocommerce">
-						<form novalidate="novalidate" class="simple_form new_listing" id="new_listing" enctype="multipart/form-data" action="/listings" accept-charset="UTF-8" method="post">
-							<input name="utf8" type="hidden" value="&#x2713;" />
-							<input type="hidden" name="authenticity_token" value="n3AtFnTf2lMQHn8MPkSKFxg6225w+xj2MyQv06p+/syMyVSi/EqYD+GigpafwDNRJtavFiBmrv3fPRfjdOI2CA==" />
-								<h3>ข้อมูลสินค้า</h3>
-							<div class="form-group string required listing_title">
-								<label class="string required control-label" for="listing_title">
-								<abbr title="required"></abbr> ชื่อสินค้า</label>
-								<input class="string required form-control" placeholder="เช่น ผักชี,หน่อไม้ " type="text" name="listing[title]" id="listing_title" />
-							</div>
-							<div class="form-group select required listing_listing_type_id">
-							<label class="select required control-label" for="listing_listing_type_id">
-							<abbr title="required"></abbr> ชนิดสินค้า</label>
-								<select class="select required form-control" name="listing[listing_type_id]" id="listing_listing_type_id" size="auto">
-								<option value="0">ผัก</option>
-								<option value="1">ผลไม้</option>
-								<option value="2">OTOP</option>
-								<option value="3">แปรรูป</option>
-								<option value="4">Premium</option>
-								<option value="5">อุปกรณ์ทางการเกษตร</option>
-								</select>
-							</div>
-							<div class="form-group file optional listing_photo">
-								<label class="file optional control-label" for="listing_photo">รูปประกอบ</label>
-								<input class="file optional" type="file" name="listing[photo]" id="listing_photo" />
-							</div>
-							<div class="form-group text required listing_description">
-								<label class="text required control-label" for="listing_description">
-								<abbr title="required"></abbr> รายละเอียดสินค้า + การส่งของ + วันรับ/ส่งของ</label>
-								<textarea class="text required form-control" name="listing[description]" id="listing_description"></textarea>
-							</div>
-								<h2>การซื้อ</h2>
-							<div class="form-group string required listing_unit">
-								<label class="string required control-label" for="listing_unit">
-								<abbr title="required"></abbr> หน่วย</label>
-								<input class="string required form-control" placeholder="เช่น ขีด, ตัน, กก." type="text" name="listing[unit]" id="listing_unit" />
-							</div>
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.php">หน้าแรก</a></li>
+                  <li><a href="seller-profile.html">ประวัติผู้ขาย</a></li>
+                  <li><a href="order-list.html">รายการสั่งซื้อ</a></li>
+                  <li><a href="by-announce.html">ประกาศซื้อสินค้า</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div> <!-- End mainmenu area -->
 
-							<div class="form-group decimal required listing_price_per_unit">
-								<label class="decimal required control-label" for="listing_price_per_unit" size="100%">
-								<abbr title="required"></abbr> ราคาต่อหน่วย</label>
-								<input class="numeric decimal required form-control" placeholder="เช่น 10.5, 95.0" type="number" step="any" name="listing[price_per_unit]" id="listing_price_per_unit" />
-							</div>
-
-							<h2>ตำแหน่ง</h2>
-							<div class="form-group text required listing_pickup_address">
-								<label class="text required control-label" for="listing_pickup_address">
-								<abbr title="required"></abbr> ที่อยู่สินค้า</label>
-								<textarea class="text required form-control" name="listing[pickup_address]" id="listing_pickup_address"></textarea>
-							</div>
-
-							<div class="form-group select required listing_province_id">
-								<label class="select required control-label" for="listing_province_id">
-								<abbr title="required"></abbr> จังหวัด</label>
-								<select class="select required form-control" name="listing[province_id]" id="listing_province_id" size="auto">
-								<option value=""></option>
-								<option value="1">กรุงเทพมหานคร</option>
-								<option value="2">สมุทรปราการ</option>
-								<option value="3">นนทบุรี</option>
-								<option value="4">ปทุมธานี</option>
-								<option value="5">พระนครศรีอยุธยา</option>
-								<option value="6">อ่างทอง</option>
-								<option value="7">ลพบุรี</option>
-								<option value="8">สิงห์บุรี</option>
-								<option value="9">ชัยนาท</option>
-								<option value="10">สระบุรี</option>
-								<option value="11">ชลบุรี</option>
-								<option value="12">ระยอง</option>
-								<option value="13">จันทบุรี</option>
-								<option value="14">ตราด</option>
-								<option value="15">ฉะเชิงเทรา</option>
-								<option value="16">ปราจีนบุรี</option>
-								<option value="17">นครนายก</option>
-								<option value="18">สระแก้ว</option>
-								<option value="19">นครราชสีมา</option>
-								<option value="20">บุรีรัมย์</option>
-								<option value="21">สุรินทร์</option>
-								<option value="22">ศรีสะเกษ</option>
-								<option value="23">อุบลราชธานี</option>
-								<option value="24">ยโสธร</option>
-								<option value="25">ชัยภูมิ</option>
-								<option value="26">อำนาจเจริญ</option>
-								<option value="27">หนองบัวลำภู</option>
-								<option value="28">ขอนแก่น</option>
-								<option value="29">อุดรธานี</option>
-								<option value="30">เลย</option>
-								<option value="31">หนองคาย</option>
-								<option value="32">มหาสารคาม</option>
-								<option value="33">ร้อยเอ็ด</option>
-								<option value="34">กาฬสินธุ์</option>
-								<option value="35">สกลนคร</option>
-								<option value="36">นครพนม</option>
-								<option value="37">มุกดาหาร</option>
-								<option value="38">เชียงใหม่</option>
-								<option value="39">ลำพูน</option>
-								<option value="40">ลำปาง</option>
-								<option value="41">อุตรดิตถ์</option>
-								<option value="42">แพร่</option>
-								<option value="43">น่าน</option>
-								<option value="44">พะเยา</option>
-								<option value="45">เชียงราย</option>
-								<option value="46">แม่ฮ่องสอน</option>
-								<option value="47">นครสวรรค์</option>
-								<option value="48">อุทัยธานี</option>
-								<option value="49">กำแพงเพชร</option>
-								<option value="50">ตาก</option>
-								<option value="51">สุโขทัย</option>
-								<option value="52">พิษณุโลก</option>
-								<option value="53">พิจิตร</option>
-								<option value="54">เพชรบูรณ์</option>
-								<option value="55">ราชบุรี</option>
-								<option value="56">กาญจนบุรี</option>
-								<option value="57">สุพรรณบุรี</option>
-								<option value="58">นครปฐม</option>
-								<option value="59">สมุทรสาคร</option>
-								<option value="60">สมุทรสงคราม</option>
-								<option value="61">เพชรบุรี</option>
-								<option value="62">ประจวบคีรีขันธ์</option>
-								<option value="63">นครศรีธรรมราช</option>
-								<option value="64">กระบี่</option>
-								<option value="65">พังงา</option>
-								<option value="66">ภูเก็ต</option>
-								<option value="67">สุราษฎร์ธานี</option>
-								<option value="68">ระนอง</option>
-								<option value="69">ชุมพร</option>
-								<option value="70">สงขลา</option>
-								<option value="71">สตูล</option>
-								<option value="72">ตรัง</option>
-								<option value="73">พัทลุง</option>
-								<option value="74">ปัตตานี</option>
-								<option value="75">ยะลา</option>
-								<option value="76">นราธิวาส</option>
-								<option value="77">บึงกาฬ</option>
-								</select>
-							</div>
-							<div class="form-group string required listing_title">
-								<label class="string required control-label" for="listing_title">
-								<abbr title="required"></abbr> อำเภอ</label>
-								<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
-							</div>
-							<div class="form-group select required listing_district_id">
-								<div class="form-group string required listing_title">
-								<label class="string required control-label" for="listing_title">
-								<abbr title="required"></abbr>ตำบล</label>
-								<input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
-							</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-<!--ซ้าย-->		<div class="col-md-4">
-				<div class="right">
-					ซ้าย
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-		<div class="related-products-wrapper container">
-			<h2 class="related-products-title">มาตรฐานที่ได้รับ</h2>
-			<div class="row">
-				<div class="col-md-3" style="display:inline;">
-					<label class="oh-checkbox"><input type="checkbox" value="1">GAP</label><br>
-					<label><input type="checkbox" value="1">GMP</label><br>
-					<label><input type="checkbox" value="1">IFOAM</label><br>
-					<label><input type="checkbox" value="1">อื่นๆ</label><br>
-				</div>
-				<div class="col-md-3">
-					<label><input type="checkbox" value="1">Halal</label><br>
-					<label><input type="checkbox" value="1">Organic Thailand</label><br>
-					<label><input type="checkbox" value="1">Qt</label><br>
-				</div>
-				<div class="col-md-3">
-					<label><input type="checkbox" value="1">ISO 22000</label><br>
-					<label><input type="checkbox" value="1">ISO 22000: 2005</label><br>
-					<label><input type="checkbox" value="1">PSG Organic</label><br>
-				</div>
-				<div class="col-md-3">
-					<label><input type="checkbox" value="1">Q Premium</label><br>
-					<label><input type="checkbox" value="1">HACCP</label><br>
-					<label><input type="checkbox" value="1">อย.</label><br>
-				</div>
-			</div>
-		</div>
-			<br>
-			<hr>
-			<center>
-			<a href="by-detail.html"><button type="button" class="btn btn-success">ลงประกาศ</button></a>
-			</center>
-			<hr>
-			<br>
-<!--foot
-er-->
-    <div class="footer-top-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-about-us">
-                        <h2>e<span>Electronics</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
-                        <div class="footer-social">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+   <div class="product-big-title-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="product-bit-title text-center"><br>
+                  <h2>ลงประกาศซื้อสินค้า</h2>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <div class="single-product-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <!--ขวา-->			<div class="right">
+               <h4>สินค้าแนะนำ</h4>
+               <div class="col-md-6 col-xs-6">
+                  <div class="single-shop-product">
+                     <a href="#">
+                        <div class="product-upper">
+                           <img src="img/fruit-3.jpg" class="img-thumbnail" alt="">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">User Navigation </h2>
-                        <ul>
-                            <li><a href="">My account</a></li>
-                            <li><a href="">Order history</a></li>
-                            <li><a href="">Wishlist</a></li>
-                            <li><a href="">Vendor contact</a></li>
-                            <li><a href="">Front page</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Categories</h2>
-                        <ul>
-                            <li><a href="">Mobile Phone</a></li>
-                            <li><a href="">Home accesseries</a></li>
-                            <li><a href="">LED TV</a></li>
-                            <li><a href="">Computer</a></li>
-                            <li><a href="">Gadets</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-newsletter">
-                        <h2 class="footer-wid-title">Newsletter</h2>
-                        <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
-                        <div class="newsletter-form">
-                            <input type="email" placeholder="Type your email">
-                            <input type="submit" value="Subscribe">
+                     </a>
+                     <h2>ทับทิม</h2>
+                     <div class="shop-price">
+                        <ins>฿40.00</ins> <del>50.00</del>
+                     </div>
+                     <div class="product-option-shop">
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
+                     </div>
+                  </div>
+                  <div class="single-shop-product">
+                     <a href="#">
+                        <div class="product-upper">
+                           <img src="img/fruit-2.jpg" class="img-thumbnail" alt="">
                         </div>
-                    </div>
-                </div>
+                     </a>
+                     <h2>ฝรั่ง</h2>
+                     <div class="shop-price">
+                        <ins>฿40.00</ins> <del>50.00</del>
+                     </div>
+                     <div class="product-option-shop">
+                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="cart.html">ใส่ลงตะกร้า</a>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-    <div class="footer-bottom-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="copyright">
-                        <p>&copy; 2015 eElectronics. All Rights Reserved. Coded with <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
-                    </div>
-                </div>
+         </div>
+         <!--กึ่งกลาง-->		<div class="col-md-4">
+         <div class="product-content-right">
+            <div class="woocommerce">
+               <form novalidate="novalidate" class="simple_form new_listing" id="new_listing" enctype="multipart/form-data" action="/listings" accept-charset="UTF-8" method="post">
+                  <input name="utf8" type="hidden" value="&#x2713;" />
+                  <input type="hidden" name="authenticity_token" value="n3AtFnTf2lMQHn8MPkSKFxg6225w+xj2MyQv06p+/syMyVSi/EqYD+GigpafwDNRJtavFiBmrv3fPRfjdOI2CA==" />
+                  <h3>ข้อมูลสินค้า</h3>
+                  <div class="form-group string required listing_title">
+                     <label class="string required control-label" for="listing_title">
+                        <abbr title="required"></abbr> ชื่อสินค้า</label>
+                        <input class="string required form-control" placeholder="เช่น ผักชี,หน่อไม้ " type="text" name="listing[title]" id="listing_title" />
+                     </div>
+                     <div class="form-group select required listing_listing_type_id">
+                        <label class="select required control-label" for="listing_listing_type_id">
+                           <abbr title="required"></abbr> ชนิดสินค้า</label>
+                           <select class="select required form-control" name="listing[listing_type_id]" id="listing_listing_type_id" size="auto">
+                              <option value="0">ผัก</option>
+                              <option value="1">ผลไม้</option>
+                              <option value="2">OTOP</option>
+                              <option value="3">แปรรูป</option>
+                              <option value="4">Premium</option>
+                              <option value="5">อุปกรณ์ทางการเกษตร</option>
+                           </select>
+                        </div>
+                        <div class="form-group file optional listing_photo">
+                           <label class="file optional control-label" for="listing_photo">รูปประกอบ</label>
+                           <input class="file optional" type="file" name="listing[photo]" id="listing_photo" />
+                        </div>
+                        <div class="form-group text required listing_description">
+                           <label class="text required control-label" for="listing_description">
+                              <abbr title="required"></abbr> รายละเอียดสินค้า + การส่งของ + วันรับ/ส่งของ</label>
+                              <textarea class="text required form-control" name="listing[description]" id="listing_description"></textarea>
+                           </div>
+                           <h2>การซื้อ</h2>
+                           <div class="form-group string required listing_unit">
+                              <label class="string required control-label" for="listing_unit">
+                                 <abbr title="required"></abbr> หน่วย</label>
+                                 <input class="string required form-control" placeholder="เช่น ขีด, ตัน, กก." type="text" name="listing[unit]" id="listing_unit" />
+                              </div>
 
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                              <div class="form-group decimal required listing_price_per_unit">
+                                 <label class="decimal required control-label" for="listing_price_per_unit" size="100%">
+                                    <abbr title="required"></abbr> ราคาต่อหน่วย</label>
+                                    <input class="numeric decimal required form-control" placeholder="เช่น 10.5, 95.0" type="number" step="any" name="listing[price_per_unit]" id="listing_price_per_unit" />
+                                 </div>
 
-    <!-- Latest jQuery form server -->
-    <script src="https://code.jquery.com/jquery.min.js"></script>
+                                 <h2>ตำแหน่ง</h2>
+                                 <div class="form-group text required listing_pickup_address">
+                                    <label class="text required control-label" for="listing_pickup_address">
+                                       <abbr title="required"></abbr> ที่อยู่สินค้า</label>
+                                       <textarea class="text required form-control" name="listing[pickup_address]" id="listing_pickup_address"></textarea>
+                                    </div>
 
-    <!-- Bootstrap JS form CDN -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+                                    <div class="form-group select required listing_province_id">
+                                       <label class="select required control-label" for="listing_province_id">
+                                          <abbr title="required"></abbr> จังหวัด</label>
+                                          <select class="select required form-control" name="listing[province_id]" id="listing_province_id" size="auto">
+                                             <option value=""></option>
+                                             <option value="1">กรุงเทพมหานคร</option>
+                                             <option value="2">สมุทรปราการ</option>
+                                             <option value="3">นนทบุรี</option>
+                                             <option value="4">ปทุมธานี</option>
+                                             <option value="5">พระนครศรีอยุธยา</option>
+                                             <option value="6">อ่างทอง</option>
+                                             <option value="7">ลพบุรี</option>
+                                             <option value="8">สิงห์บุรี</option>
+                                             <option value="9">ชัยนาท</option>
+                                             <option value="10">สระบุรี</option>
+                                             <option value="11">ชลบุรี</option>
+                                             <option value="12">ระยอง</option>
+                                             <option value="13">จันทบุรี</option>
+                                             <option value="14">ตราด</option>
+                                             <option value="15">ฉะเชิงเทรา</option>
+                                             <option value="16">ปราจีนบุรี</option>
+                                             <option value="17">นครนายก</option>
+                                             <option value="18">สระแก้ว</option>
+                                             <option value="19">นครราชสีมา</option>
+                                             <option value="20">บุรีรัมย์</option>
+                                             <option value="21">สุรินทร์</option>
+                                             <option value="22">ศรีสะเกษ</option>
+                                             <option value="23">อุบลราชธานี</option>
+                                             <option value="24">ยโสธร</option>
+                                             <option value="25">ชัยภูมิ</option>
+                                             <option value="26">อำนาจเจริญ</option>
+                                             <option value="27">หนองบัวลำภู</option>
+                                             <option value="28">ขอนแก่น</option>
+                                             <option value="29">อุดรธานี</option>
+                                             <option value="30">เลย</option>
+                                             <option value="31">หนองคาย</option>
+                                             <option value="32">มหาสารคาม</option>
+                                             <option value="33">ร้อยเอ็ด</option>
+                                             <option value="34">กาฬสินธุ์</option>
+                                             <option value="35">สกลนคร</option>
+                                             <option value="36">นครพนม</option>
+                                             <option value="37">มุกดาหาร</option>
+                                             <option value="38">เชียงใหม่</option>
+                                             <option value="39">ลำพูน</option>
+                                             <option value="40">ลำปาง</option>
+                                             <option value="41">อุตรดิตถ์</option>
+                                             <option value="42">แพร่</option>
+                                             <option value="43">น่าน</option>
+                                             <option value="44">พะเยา</option>
+                                             <option value="45">เชียงราย</option>
+                                             <option value="46">แม่ฮ่องสอน</option>
+                                             <option value="47">นครสวรรค์</option>
+                                             <option value="48">อุทัยธานี</option>
+                                             <option value="49">กำแพงเพชร</option>
+                                             <option value="50">ตาก</option>
+                                             <option value="51">สุโขทัย</option>
+                                             <option value="52">พิษณุโลก</option>
+                                             <option value="53">พิจิตร</option>
+                                             <option value="54">เพชรบูรณ์</option>
+                                             <option value="55">ราชบุรี</option>
+                                             <option value="56">กาญจนบุรี</option>
+                                             <option value="57">สุพรรณบุรี</option>
+                                             <option value="58">นครปฐม</option>
+                                             <option value="59">สมุทรสาคร</option>
+                                             <option value="60">สมุทรสงคราม</option>
+                                             <option value="61">เพชรบุรี</option>
+                                             <option value="62">ประจวบคีรีขันธ์</option>
+                                             <option value="63">นครศรีธรรมราช</option>
+                                             <option value="64">กระบี่</option>
+                                             <option value="65">พังงา</option>
+                                             <option value="66">ภูเก็ต</option>
+                                             <option value="67">สุราษฎร์ธานี</option>
+                                             <option value="68">ระนอง</option>
+                                             <option value="69">ชุมพร</option>
+                                             <option value="70">สงขลา</option>
+                                             <option value="71">สตูล</option>
+                                             <option value="72">ตรัง</option>
+                                             <option value="73">พัทลุง</option>
+                                             <option value="74">ปัตตานี</option>
+                                             <option value="75">ยะลา</option>
+                                             <option value="76">นราธิวาส</option>
+                                             <option value="77">บึงกาฬ</option>
+                                          </select>
+                                       </div>
+                                       <div class="form-group string required listing_title">
+                                          <label class="string required control-label" for="listing_title">
+                                             <abbr title="required"></abbr> อำเภอ</label>
+                                             <input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
+                                          </div>
+                                          <div class="form-group select required listing_district_id">
+                                             <div class="form-group string required listing_title">
+                                                <label class="string required control-label" for="listing_title">
+                                                   <abbr title="required"></abbr>ตำบล</label>
+                                                   <input class="string required form-control" type="text" name="listing[title]" id="listing_title" />
+                                                </div>
+                                             </div>
+                                          </form>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!--ซ้าย-->		<div class="col-md-4">
+                                 <div class="right">
 
-    <!-- jQuery sticky menu -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="related-products-wrapper container">
+                        <h2 class="related-products-title">มาตรฐานที่ได้รับ</h2>
+                        <div class="row">
+                           <div class="col-md-3" style="display:inline;">
+                              <label class="oh-checkbox"><input type="checkbox" value="1">GAP</label><br>
+                              <label><input type="checkbox" value="1">GMP</label><br>
+                              <label><input type="checkbox" value="1">IFOAM</label><br>
+                              <label><input type="checkbox" value="1">อื่นๆ</label><br>
+                           </div>
+                           <div class="col-md-3">
+                              <label><input type="checkbox" value="1">Halal</label><br>
+                              <label><input type="checkbox" value="1">Organic Thailand</label><br>
+                              <label><input type="checkbox" value="1">Qt</label><br>
+                           </div>
+                           <div class="col-md-3">
+                              <label><input type="checkbox" value="1">ISO 22000</label><br>
+                              <label><input type="checkbox" value="1">ISO 22000: 2005</label><br>
+                              <label><input type="checkbox" value="1">PSG Organic</label><br>
+                           </div>
+                           <div class="col-md-3">
+                              <label><input type="checkbox" value="1">Q Premium</label><br>
+                              <label><input type="checkbox" value="1">HACCP</label><br>
+                              <label><input type="checkbox" value="1">อย.</label><br>
+                           </div>
+                        </div>
+                     </div>
+                     <br>
+                     <hr>
+                     <center>
+                        <a href="by-detail.html"><button type="button" class="btn btn-success">ลงประกาศ</button></a>
+                     </center>
+                     <hr>
+                     <br>
+                     <!--foot
+                     er-->
+                     <div class="footer-top-area">
+                        <div class="zigzag-bottom"></div>
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                 <div class="footer-about-us">
+                                    <h2>e<span>Electronics</span></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+                                    <div class="footer-social">
+                                       <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                       <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                       <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                                       <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                       <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
 
-    <!-- jQuery easing -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
+                              <div class="col-md-3 col-sm-6">
+                                 <div class="footer-menu">
+                                    <h2 class="footer-wid-title">User Navigation </h2>
+                                    <ul>
+                                       <li><a href="">My account</a></li>
+                                       <li><a href="">Order history</a></li>
+                                       <li><a href="">Wishlist</a></li>
+                                       <li><a href="">Vendor contact</a></li>
+                                       <li><a href="">Front page</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
 
-    <!-- Main Script -->
-    <script src="js/main.js"></script>
-  </body>
-</html>
+                              <div class="col-md-3 col-sm-6">
+                                 <div class="footer-menu">
+                                    <h2 class="footer-wid-title">Categories</h2>
+                                    <ul>
+                                       <li><a href="">Mobile Phone</a></li>
+                                       <li><a href="">Home accesseries</a></li>
+                                       <li><a href="">LED TV</a></li>
+                                       <li><a href="">Computer</a></li>
+                                       <li><a href="">Gadets</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-3 col-sm-6">
+                                 <div class="footer-newsletter">
+                                    <h2 class="footer-wid-title">Newsletter</h2>
+                                    <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
+                                    <div class="newsletter-form">
+                                       <input type="email" placeholder="Type your email">
+                                       <input type="submit" value="Subscribe">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-bottom-area">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-8">
+                                 <div class="copyright">
+                                    <p>&copy; 2015 eElectronics. All Rights Reserved. Coded with <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                 <div class="footer-card-icon">
+                                    <i class="fa fa-cc-discover"></i>
+                                    <i class="fa fa-cc-mastercard"></i>
+                                    <i class="fa fa-cc-paypal"></i>
+                                    <i class="fa fa-cc-visa"></i>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- Latest jQuery form server -->
+                     <script src="https://code.jquery.com/jquery.min.js"></script>
+
+                     <!-- Bootstrap JS form CDN -->
+                     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+                     <!-- jQuery sticky menu -->
+                     <script src="js/owl.carousel.min.js"></script>
+                     <script src="js/jquery.sticky.js"></script>
+
+                     <!-- jQuery easing -->
+                     <script src="js/jquery.easing.1.3.min.js"></script>
+
+                     <!-- Main Script -->
+                     <script src="js/main.js"></script>
+                  </body>
+                  </html>
