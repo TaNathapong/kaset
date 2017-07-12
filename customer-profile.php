@@ -192,19 +192,19 @@
     <div class="col-md-8">
         <div class="col-md-4 text-center">
             <a href="tracking.php">
-                <img src="img/cart.png" class="img-thumbnail" style="height: 200px;">
+                <img src="icon/016-lace.png"  style="height: 200px;padding: 15px;">
                 <p>รายการโปรด</p>
             </a>
         </div>
         <div class="col-md-4 text-center">
             <a href="by-detail.html">
-                <img src="img/dollar.png" class="img-thumbnail" style="height: 200px;">
+                <img src="icon/009-commerce.png"  style="height: 200px;padding: 15px;">
                 <p>รายการสั่งซื้อ</p>
             </a>
         </div>
         <div class="col-md-4 text-center">
             <a href="by-announce.html">
-                <img src="img/package.png" class="img-thumbnail" style="height: 200px;">
+                <img src="icon/013-list.png"  style="height: 200px;padding: 15px;">
                 <p>ประกาศซื้อ</p>
             </a>
         </div>
