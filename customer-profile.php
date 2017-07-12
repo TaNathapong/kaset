@@ -1,16 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Customer Profile</title>
+    <title>ประวัติผู้ซื้อ - GreenHouse</title>
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Kanit' rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -22,154 +25,165 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/flipclock.scss">
+
 </head>
 
 <body>
+<style>
+.container{
+    font-family: 'Athiti', sans-serif;
+}
+</style>
 
-    <div class="header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-8">
-                    <div class="user-menu text-right">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!-- End header area -->
-
-    <div class="mainmenu-area">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-<<<<<<< HEAD
-                        <li class="active"><a href="index.php">หน้าแรก</a></li>
-                        <li><a href="shop.php">ตลาด</a></li>
-                        <li><a href="#">ท่องเที่ยว</a></li>
-                        <li><a href="#">ติดต่อเรา</a></li>
-=======
-                        <li><a href="index.php">หน้าแรก</a></li>
-                        <li><a href="shop.php">ตลาด</a></li>
-                        <li><a href="travel.html">ท่องเที่ยว</a></li>
-                        <li><a href="contract.html">ติดต่อเรา</a></li>
->>>>>>> c30ab1e5728ea4f7069bc2ca3ba8ca70ef33d241
+<div class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                <div class="user-menu text-right">
+                    <ul>
+                        <li><a href="customer-proflie.php"><i class="fa fa-user"></i> บัญชีของฉัน</a></li>
+                        <li><a href="login.html"><i class="fa fa-user"></i> เข้าสู่ระบบ</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div> <!-- End mainmenu area -->
+    </div>
+</div> <!-- End header area -->
 
-    <div class="product-big-title-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="logo">
-                        <h1><a href="index.php">Green<span>House</span></a></h1>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
-                </div>
+<div class="mainmenu-area">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <div class="row">
-                <div class="col-md-12" >
-                    <div class="product-bit-title text-center">
-                        <h2>บัญชีของฉัน</h2>
-                    </div>
-                </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.php">หน้าแรก</a></li>
+                    <li><a href="shop.php">ตลาด</a></li>
+                    <li><a href="travel.html">ท่องเที่ยว</a></li>
+                    <li><a href="contract.html">ติดต่อเรา</a></li>
+                </ul>
             </div>
         </div>
     </div>
+</div> <!-- End mainmenu area -->
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="col-md-4">
-                <div class="text-center" style="padding: 20px;">
-                    <img src="img/services_logo__1.jpg" class="img-thumbnail" style="height: 100%;">
-                    <div style="padding: 20px;">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4">
-                            <form action="#">
-                                <input type="submit" value="แก้ไข">
-                            </form>
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
+<div class="product-big-title-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="logo">
+                    <h1><a href="index.php">Green<span>House</span></a></h1>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="row" style="padding: 20px;">
-                    <div class="row" style="padding: 10px;">
-                        <h3>ข้อมูลส่วนตัว</h3>
-                        <label class="col-md-2">ชื่อ-สกุล : </label>
-                        <label class="col-md-10">xxx</label>
 
-                        <label class="col-md-2">ที่อยู่ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">ตำบล : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">อำเภอ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">จังหวัด : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">รหัสไปรษณีย์ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">E-mail : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">โทรศัพท์ : </label>
-                        <label class="col-md-10">xxx</label>
-                    </div>
-
-                    <div class="row" style="padding: 10px;">
-                        <h3>ที่อยู่ใบเสร็จ</h3>
-                        <label class="col-md-2">ชื่อ-สกุล : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">ที่อยู่ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">ตำบล : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">อำเภอ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">จังหวัด : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">รหัสไปรษณีย์ : </label>
-                        <label class="col-md-10">xxx</label>
-
-                        <label class="col-md-2">โทรศัพท์ : </label>
-                        <label class="col-md-10">xxx</label>
-                    </div>
+            <div class="col-sm-6">
+                <div class="shopping-item">
+                    <a href="auction-detail.html">Cart - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" >
+                <div class="product-bit-title text-center">
+                    <h2>ข้อมูลผู้ซื้อ</h2>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--รายละเอียดผู้ซื้อ-->
+<div class="single-product-area">
+
+    <div class="container">
+        <div class="product-content-right">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="product-images">
+                        <div class="product-main-img">
+                            <img src="http://moo.upyim.com/wp-content/uploads/2017/06/1-569.jpg" class="img-circle" alt="Forest" width="304" height="236">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="product-inner">
+                        <h2 class="product-name">ข้อมูลผู้ซื้อ</h2>
+                        <div class="product-breadcroumb">
+                            <a href="">ติดตาม</a>
+                            <a href="">จำนวนสินค้า</a>
+                            <a href="">จำนวนผู้เข้าชม</a>
+                        </div>
+                        <hr/>
+                        <div role="tabpanel">
+
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                    <h2>รายละเอียดผู้ซื้อ</h2>
+                                    <p>ชื่อ นายณเดชน์  คูกิมิยะ</p>
+                                    <p>ชื่อเล่น เวียร์</p>
+                                    <p>	ที่อยู่: บ้านป่าหว้า โคกม่วง อำเภอภาชี พระนครศรีอยุธยา</p>
+                                    <p>	โทรศัพท์: 0624796962</p>
+                                    <p>	มือถือ: 0897888673  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <br><br>
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <style type="text/css">
+            .mySlides {display:none}
+            .demo {cursor:pointer}
+            </style>
+
+            <script> <!-- javascript for images slider gallory -->
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+                showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                }
+                x[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " w3-opacity-off";
+            }
+            </script>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 
 <br/>
 
@@ -177,21 +191,21 @@
     <div class="col-md-2"></div>
     <div class="col-md-8">
         <div class="col-md-4 text-center">
-            <a href="#">
-                <img src="img/heart.png" class="img-thumbnail" style="height: 200px;">
+            <a href="tracking.php">
+                <img src="img/cart.png" class="img-thumbnail" style="height: 200px;">
                 <p>รายการโปรด</p>
             </a>
         </div>
         <div class="col-md-4 text-center">
-            <a href="#">
-                <img src="img/cart.png" class="img-thumbnail" style="height: 200px;">
+            <a href="by-detail.html">
+                <img src="img/dollar.png" class="img-thumbnail" style="height: 200px;">
                 <p>รายการสั่งซื้อ</p>
             </a>
         </div>
         <div class="col-md-4 text-center">
-            <a href="#">
-                <img src="img/dollar.png" class="img-thumbnail" style="height: 200px;">
-                <p>ประกาศซื้อสินค้า</p>
+            <a href="by-announce.html">
+                <img src="img/package.png" class="img-thumbnail" style="height: 200px;">
+                <p>ประกาศซื้อ</p>
             </a>
         </div>
     </div>
@@ -200,13 +214,14 @@
 
 <br/>
 
+
 <div class="footer-top-area">
 
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-about-us">
-                    <h2>Green<span>House</span></h2>
+                    <h2>e<span>Electronics</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
                     <div class="footer-social">
                         <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -222,11 +237,11 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">User Navigation </h2>
                     <ul>
-                        <li><a href="#">My account</a></li>
-                        <li><a href="#">Order history</a></li>
-                        <li><a href="#">Wishlist</a></li>
-                        <li><a href="#">Vendor contact</a></li>
-                        <li><a href="#">Front page</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Order history</a></li>
+                        <li><a href="">Wishlist</a></li>
+                        <li><a href="">Vendor contact</a></li>
+                        <li><a href="">Front page</a></li>
                     </ul>
                 </div>
             </div>
@@ -235,11 +250,11 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categories</h2>
                     <ul>
-                        <li><a href="#">Mobile Phone</a></li>
-                        <li><a href="#">Home accesseries</a></li>
-                        <li><a href="#">LED TV</a></li>
-                        <li><a href="#">Computer</a></li>
-                        <li><a href="#">Gadets</a></li>
+                        <li><a href="">Mobile Phone</a></li>
+                        <li><a href="">Home accesseries</a></li>
+                        <li><a href="">LED TV</a></li>
+                        <li><a href="">Computer</a></li>
+                        <li><a href="">Gadets</a></li>
                     </ul>
                 </div>
             </div>
@@ -249,23 +264,20 @@
                     <h2 class="footer-wid-title">Newsletter</h2>
                     <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
                     <div class="newsletter-form">
-                        <form action="#">
-                            <input type="email" placeholder="Type your email">
-                            <input type="submit" value="Subscribe">
-                        </form>
+                        <input type="email" placeholder="Type your email">
+                        <input type="submit" value="Subscribe">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div> <!-- End footer top area -->
-
+</div>
 <div class="footer-bottom-area">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <div class="copyright">
-                    <p>&copy; 2015 GreenHouse. All Rights Reserved.</a></p>
+                    <p>&copy; 2015 eElectronics. All Rights Reserved. Coded with <i class="fa fa-heart"></i> by <a href="http://wpexpand.com" target="_blank">WP Expand</a></p>
                 </div>
             </div>
 
@@ -279,7 +291,8 @@
             </div>
         </div>
     </div>
-</div> <!-- End footer bottom area -->
+</div>
+
 
 <!-- Latest jQuery form server -->
 <script src="https://code.jquery.com/jquery.min.js"></script>

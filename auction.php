@@ -81,7 +81,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="main-page.html">Green<span>House</span></a></h1>
+                        <h1><a href="index.php">Green<span>House</span></a></h1>
                     </div>
                 </div>
 
@@ -128,7 +128,7 @@
                         <div class="product-f-image">
                             <img src="img/coffee4.png" alt="">
                             <div class="product-hover">
-                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;ประมูลเลย</a>
                             </div>
                         </div>
 
@@ -144,7 +144,7 @@
                         <div class="product-f-image">
                             <img src="img/green-tea.jpg" alt="">
                             <div class="product-hover">
-                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;ประมูลเลย</a>
                             </div>
                         </div>
 
@@ -159,7 +159,7 @@
                         <div class="product-f-image">
                             <img src="img/durian-300.jpg" alt="">
                             <div class="product-hover">
-                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;ประมูลเลย</a>
                             </div>
                         </div>
 
@@ -174,7 +174,7 @@
                         <div class="product-f-image">
                             <img src="img/botun.jpg" alt="">
                             <div class="product-hover">
-                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;ประมูลเลย</a>
                             </div>
                         </div>
 
@@ -189,7 +189,7 @@
                         <div class="product-f-image">
                             <img src="img/rose154.jpg" alt="">
                             <div class="product-hover">
-                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> ประมูลเลย</a>
+                                <a href="auction-detail.html" class="add-to-cart-link"><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;ประมูลเลย</a>
                             </div>
                         </div>
 
